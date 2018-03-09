@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1e6748d7776961c2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 15:18:28"
+		timestampiso="2018-03-08T13:18:28"
+		timeoutfactor="1"
+		module="SomeTextTestAndFinish">
+		<detail>
+			SomeTextTestAndFinish
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.119"
+			timeRelativeToTestModuleStartTime="00:01.121"
+			timeWallClock="15:18:29"
+			time="00:01.119"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}S{LShiftKey up}ome{LShiftKey down}T{LShiftKey up}ext{Space}2{Space}{LShiftKey down}#{LShiftKey up}{Space down}{LShiftKey down}{Space up}@#!{LShiftKey up}450'.
+			</message>
+			<metainfo
+				itemindex="16"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

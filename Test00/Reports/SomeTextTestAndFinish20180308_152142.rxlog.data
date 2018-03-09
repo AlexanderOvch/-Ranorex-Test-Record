@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d4e9937185a7a81"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 15:21:51"
+		timestampiso="2018-03-08T13:21:51"
+		timeoutfactor="1"
+		module="SomeTextTestAndFinish">
+		<detail>
+			SomeTextTestAndFinish
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.192"
+			timeRelativeToTestModuleStartTime="00:01.193"
+			timeWallClock="15:21:52"
+			time="00:01.192"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton' at 46;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/checkbox[@automationid='DataFormatToggleButton']"
+				fullname="Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.DataFormatToggleButton"
+				id="1690f317493b4ed39debefc53f42a54a"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.330"
+			timeRelativeToTestModuleStartTime="00:04.331"
+			timeWallClock="15:21:56"
+			time="00:04.330"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.SomeElement' at 203;98.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/text[@automationid='PadViewTextBox']/element[2]"
+				fullname="Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.SomeElement"
+				id="bd1e846bc60243b2884c9c2a0802fc3b"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.334"
+			timeRelativeToTestModuleStartTime="00:05.335"
+			timeWallClock="15:21:57"
+			time="00:05.334"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey down}{Akey}'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.678"
+			timeRelativeToTestModuleStartTime="00:05.679"
+			timeWallClock="15:21:57"
+			time="00:05.678"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Ckey}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="94"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.995"
+			timeRelativeToTestModuleStartTime="00:05.996"
+			timeWallClock="15:21:57"
+			time="00:05.995"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Xkey}{LControlKey up}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="98"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.312"
+			timeRelativeToTestModuleStartTime="00:06.313"
+			timeWallClock="15:21:58"
+			time="00:06.312"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Measurements data could not be resolved.') on item 'NewProtocolWizard.SomeContainer2.MeasurementsDataCouldNotBeResolved'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/text[@caption='Measurements data could not be resolved.']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.MeasurementsDataCouldNotBeResolved"
+				id="dab59fa1e21c42d485fdf19dff549995"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.613"
+			timeRelativeToTestModuleStartTime="00:06.614"
+			timeWallClock="15:21:58"
+			time="00:06.613"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'Test00Repository.NewProtocolWizard.SomeContainer2.MeasurementsDataCouldNotBeResolved' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/text[@caption='Measurements data could not be resolved.']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.MeasurementsDataCouldNotBeResolved"
+				id="dab59fa1e21c42d485fdf19dff549995"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.727"
+			timeRelativeToTestModuleStartTime="00:06.728"
+			timeWallClock="15:21:58"
+			time="00:06.727"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'www'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="106"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.260"
+			timeRelativeToTestModuleStartTime="00:07.261"
+			timeWallClock="15:21:58"
+			time="00:07.260"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.ClearButton' at 7;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='ClearButton']"
+				fullname="Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.ClearButton"
+				id="1ddd3e15c72b4d3d869a27831a4989a9"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.282"
+			timeRelativeToTestModuleStartTime="00:08.283"
+			timeWallClock="15:21:59"
+			time="00:08.282"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.PasteButton' at 60;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='PasteButton']"
+				fullname="Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.PasteButton"
+				id="062465c5e04a454a8aeb5a19ef5012ac"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.242"
+			timeRelativeToTestModuleStartTime="00:09.243"
+			timeWallClock="15:22:00"
+			time="00:09.242"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.Racks' at 23;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab']/container[@automationid='PART_DockPanel']/text[@caption='Racks']"
+				fullname="Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.Racks"
+				id="972d884e2c8447e9ab2b7bd8990755dd"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.317"
+			timeRelativeToTestModuleStartTime="00:10.318"
+			timeWallClock="15:22:02"
+			time="00:10.317"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.SomeElement1' at 33;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab']/container[@automationid='Grid']/element[@automationid='GridViewControl']/element[@automationid='InnerFrame']/element[1]/element[2]"
+				fullname="Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.SomeElement1"
+				id="1ea123857b484b8b9bcd03dc0217be07"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.419"
+			timeRelativeToTestModuleStartTime="00:11.420"
+			timeWallClock="15:22:03"
+			time="00:11.419"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '2222222{Return}'.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="126"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.458"
+			timeRelativeToTestModuleStartTime="00:12.459"
+			timeWallClock="15:22:04"
+			time="00:12.458"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=43,Height=9}) on item 'NewProtocolWizard.MultipleContainerViewPanel.SomeElement1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab']/container[@automationid='Grid']/element[@automationid='GridViewControl']/element[@automationid='InnerFrame']/element[1]/element[2]"
+				fullname="Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.SomeElement1"
+				id="1ea123857b484b8b9bcd03dc0217be07"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.035"
+			timeRelativeToTestModuleStartTime="00:13.036"
+			timeWallClock="15:22:04"
+			time="00:13.035"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.SomeElement1' does match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="131"
+				loglvl="Success"
+				id="1ea123857b484b8b9bcd03dc0217be07"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@automationid='EndpointGridTab']/container[@automationid='Grid']/element[@automationid='GridViewControl']/element[@automationid='InnerFrame']/element[1]/element[2]"
+				fullname="Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.SomeElement1"
+				itemindex="12"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.153"
+			timeRelativeToTestModuleStartTime="00:13.154"
+			timeWallClock="15:22:04"
+			time="00:13.153"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.TextPad' at 14;-1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[@automationid='PART_DockPanel']/text[@caption='Pad']"
+				fullname="Test00Repository.NewProtocolWizard.MultipleContainerViewPanel.TextPad"
+				id="3c533be7d1664310a9816e0bf90afe6e"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="134"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.111"
+			timeRelativeToTestModuleStartTime="00:14.112"
+			timeWallClock="15:22:05"
+			time="00:14.111"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 42;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+				id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="138"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.892"
+			timeRelativeToTestModuleStartTime="00:14.893"
+			timeWallClock="15:22:06"
+			time="00:14.892"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeElement1' at 396;89.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/text[@caption='']/element[2]"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeElement1"
+				id="946b698422d34b3a9a03d48c847935ad"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="142"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.716"
+			timeRelativeToTestModuleStartTime="00:15.717"
+			timeWallClock="15:22:07"
+			time="00:15.716"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}S{LShiftKey up}ome{LShiftKey down}T{LShiftKey up}ext{Space}2{Space}{LShiftKey down}#{LShiftKey up}{Space down}{LShiftKey down}{Space up}@#!{LShiftKey up}450'.
+			</message>
+			<metainfo
+				itemindex="16"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="146"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.814"
+			timeRelativeToTestModuleStartTime="00:17.815"
+			timeWallClock="15:22:09"
+			time="00:17.814"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='SomeText 2 # @#!450') on item 'NewProtocolWizard.SomeContainer2.SomeText2HashAtHash450'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/text[@caption='SomeText 2 # @#!450']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeText2HashAtHash450"
+				id="4516abf479d14d7b8b849156b23b48d4"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="150"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.963"
+			timeRelativeToTestModuleStartTime="00:17.964"
+			timeWallClock="15:22:09"
+			time="00:17.963"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'Test00Repository.NewProtocolWizard.SomeContainer2.SomeText2HashAtHash450' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/text[@caption='SomeText 2 # @#!450']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeText2HashAtHash450"
+				id="4516abf479d14d7b8b849156b23b48d4"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="151"
+				loglvl="Success"
+				itemindex="17"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.090"
+			timeRelativeToTestModuleStartTime="00:18.091"
+			timeWallClock="15:22:09"
+			time="00:18.090"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 23;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+				id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="154"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.859"
+			timeRelativeToTestModuleStartTime="00:18.860"
+			timeWallClock="15:22:10"
+			time="00:18.859"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.OptionMark3' at 9;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/checkbox[@text='Launch protocol']/container[@automationid='markGrid']/element[@automationid='optionMark']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.OptionMark3"
+				id="3d86dc29d4fa4c19b5b313b2113da2b2"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="158"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.691"
+			timeRelativeToTestModuleStartTime="00:19.692"
+			timeWallClock="15:22:11"
+			time="00:19.691"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Finish' at 37;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Finish']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Finish"
+				id="cc60425ffcfb459990f873e5e5fceaa0"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="162"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.293"
+			timeRelativeToTestModuleStartTime="00:20.294"
+			timeWallClock="15:22:11"
+			time="00:20.293"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysExplorer.MyEndpointDualRacksOf15Protocol' at 300;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container/container/container/container/container/container[2]/tabpagelist[@automationid='TabControl']/tabpage[@index='2']//container[@automationid='FileView']/container[@caption='']/element[@controlname='_child']/list[@accessiblerole='List']/listitem[@accessiblename~'^My\ Endpoint\ Dual\ \(Racks\ of\ 15\)\ Protocol\ \(1\)\.assay-']"
+				fullname="Test00Repository.MyAssaysExplorer.MyEndpointDualRacksOf15Protocol"
+				id="e6456767a7604023940772c6da21f594"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="166"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.116"
+			timeRelativeToTestModuleStartTime="00:23.117"
+			timeWallClock="15:22:14"
+			time="00:23.116"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Delete}'.
+			</message>
+			<metainfo
+				itemindex="22"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="170"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

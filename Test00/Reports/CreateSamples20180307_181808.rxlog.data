@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e881a1599df41ac"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 18:18:15"
+		timestampiso="2018-03-07T16:18:15"
+		timeoutfactor="1"
+		module="CreateSamples">
+		<detail>
+			CreateSamples
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.937"
+			timeRelativeToTestModuleStartTime="00:00.937"
+			timeWallClock="18:18:16"
+			time="00:00.937"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.CreateMultipleLayoutButton' at 43;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element//container[@automationid='Self']/container/container/container/button[@automationid='CreateMultipleLayoutButton']"
+				fullname="Test00Repository.NewProtocolWizard.CreateMultipleLayoutButton"
+				id="0eade8c8c6a8424b88498e742cd4e84d"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateSamples.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.507"
+			timeRelativeToTestModuleStartTime="00:03.507"
+			timeWallClock="18:18:19"
+			time="00:03.507"
+			level="Info"
+			category="Mouse"
+			errimg=".\CreateSa_2d6f074e_23a6f3b8_trace.jpg"
+			errthumb=".\CreateSa_2d6f074e_23a6f3b8_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.InnerPath1' at 55;37.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']//element[@automationid='InnerPath']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.InnerPath1"
+				id="b93c2cf0f91d4acda3b1823e3348c708"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateSamples.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.089"
+			timeRelativeToTestModuleStartTime="00:07.089"
+			timeWallClock="18:18:22"
+			time="00:07.089"
+			level="Warn"
+			category="WPF"
+			errimg=".\CreateSa_2d6f074e_5f44a55b_trace.jpg"
+			errthumb=".\CreateSa_2d6f074e_5f44a55b_trace_thumb.jpg">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#wpf-instrumentation<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateSamples.cs"
+				codeline="86"
+				loglvl="Warn"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.212"
+			timeRelativeToTestModuleStartTime="00:10.212"
+			timeWallClock="18:18:25"
+			time="00:10.212"
+			level="Error"
+			category="User"
+			errimg=".\CreateSa_2d6f074e_f4e017e6_trace.jpg"
+			errthumb=".\CreateSa_2d6f074e_f4e017e6_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

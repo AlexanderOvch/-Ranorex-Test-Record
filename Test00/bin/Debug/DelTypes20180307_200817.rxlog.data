@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="62b0f3b63cd1999"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 20:08:28"
+		timestampiso="2018-03-07T18:08:28"
+		timeoutfactor="1"
+		module="DelTypes">
+		<detail>
+			DelTypes
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.890"
+			timeRelativeToTestModuleStartTime="00:00.890"
+			timeWallClock="20:08:29"
+			time="00:00.890"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.AdvancedViewButton' at 16;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/button[@automationid='AdvancedViewButton']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.AdvancedViewButton"
+				id="1a0581bbe67b4e4dbc7bfdd994e7d69a"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.719"
+			timeRelativeToTestModuleStartTime="00:04.719"
+			timeWallClock="20:08:33"
+			time="00:04.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1' at 10;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[1]/button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1"
+				id="12b53fc67ef54bb792b65f6b5eeb31c5"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.985"
+			timeRelativeToTestModuleStartTime="00:05.985"
+			timeWallClock="20:08:34"
+			time="00:05.985"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[1]/button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1"
+				id="12b53fc67ef54bb792b65f6b5eeb31c5"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.809"
+			timeRelativeToTestModuleStartTime="00:06.809"
+			timeWallClock="20:08:35"
+			time="00:06.809"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[1]/button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1"
+				id="12b53fc67ef54bb792b65f6b5eeb31c5"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.643"
+			timeRelativeToTestModuleStartTime="00:07.643"
+			timeWallClock="20:08:35"
+			time="00:07.643"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[1]/button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1"
+				id="12b53fc67ef54bb792b65f6b5eeb31c5"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.463"
+			timeRelativeToTestModuleStartTime="00:08.463"
+			timeWallClock="20:08:36"
+			time="00:08.463"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[1]/button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1"
+				id="12b53fc67ef54bb792b65f6b5eeb31c5"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.297"
+			timeRelativeToTestModuleStartTime="00:09.297"
+			timeWallClock="20:08:37"
+			time="00:09.297"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[1]/button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1"
+				id="12b53fc67ef54bb792b65f6b5eeb31c5"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.132"
+			timeRelativeToTestModuleStartTime="00:10.132"
+			timeWallClock="20:08:38"
+			time="00:10.132"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[1]/button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture1"
+				id="12b53fc67ef54bb792b65f6b5eeb31c5"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.968"
+			timeRelativeToTestModuleStartTime="00:10.968"
+			timeWallClock="20:08:39"
+			time="00:10.968"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.SomePicture' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']//button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SomeContainer1.SomePicture"
+				id="73bd78f93fe24932b61db59e07145da2"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.818"
+			timeRelativeToTestModuleStartTime="00:11.818"
+			timeWallClock="20:08:40"
+			time="00:11.818"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture2' at 13;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/?/?/button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture2"
+				id="0ce6c524808844bd815505e213d1ccac"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DelTypes.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b5a790e980d77d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 20:23:56"
+		timestampiso="2018-03-07T18:23:56"
+		timeoutfactor="1"
+		module="DataFormat_02">
+		<detail>
+			DataFormat_02
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.984"
+			timeRelativeToTestModuleStartTime="00:00.984"
+			timeWallClock="20:23:57"
+			time="00:00.984"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.AdvancedViewButton' at 35;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/button[@automationid='AdvancedViewButton']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.AdvancedViewButton"
+				id="1a0581bbe67b4e4dbc7bfdd994e7d69a"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_02.cs"
+				codeline="82"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.500"
+			timeRelativeToTestModuleStartTime="00:03.500"
+			timeWallClock="20:24:00"
+			time="00:03.500"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomeButton' at 5;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomeButton"
+				id="ba8eab52a6e6477fa640db592052cb1d"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_02.cs"
+				codeline="85"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.860"
+			timeRelativeToTestModuleStartTime="00:04.860"
+			timeWallClock="20:24:01"
+			time="00:04.860"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ButtonOK' at 18;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='OK']"
+				fullname="Test00Repository.SampleTypesEditor.SomeContainer1.ButtonOK"
+				id="146fb49b10c84da4ad40934b9ccb9ad8"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_02.cs"
+				codeline="88"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

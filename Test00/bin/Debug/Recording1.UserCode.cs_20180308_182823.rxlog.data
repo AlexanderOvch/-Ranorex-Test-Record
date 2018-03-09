@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="cadab89f3202fcd"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 18:28:32"
+		timestampiso="2018-03-08T16:28:32"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.076"
+			timeRelativeToTestModuleStartTime="00:01.077"
+			timeWallClock="18:28:33"
+			time="00:01.076"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.UserCode.cs"
+				codeline="32"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

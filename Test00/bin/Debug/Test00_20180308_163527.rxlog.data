@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16d934e923c8bc4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 16:35:27"
+		timestampiso="2018-03-08T14:35:27"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="31.5s"
+			durationms="31499"
+			type="test suite"
+			rid="a5d16d1b6744978"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="Test00"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="3">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="31.4s"
+				durationms="31397"
+				type="test case"
+				rid="14ab103aed2b735a"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="CreateMicroplate"
+				testcaseid="7dfc8eb0-55db-438f-b66a-de4fcecc5893"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="755ms"
+					durationms="755"
+					type="test module"
+					rid="516f6417988fb66"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="RunApp"
+					moduleid="c6ff64e1-0c12-4e58-a5fb-ee7025ea6cd7"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.101"
+						timeRelativeToTestModuleStartTime="00:00.033"
+						timeWallClock="16:35:28"
+						time="00:01.101"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\RunApp.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="3.87s"
+					durationms="3874"
+					type="test module"
+					rid="24118c8ed4d4e3da"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="CreateNewProtocol"
+					moduleid="d66f0348-4405-484e-a704-ae8c33394447"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.863"
+						timeRelativeToTestModuleStartTime="00:00.025"
+						timeWallClock="16:35:29"
+						time="00:01.863"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MyAssaysExplorer.Protocols' at 56;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container/container/container/container/container/container[2]/tabpagelist[@automationid='TabControl']/tabpage[@index='2']/container[@automationid='PART_DockPanel']/text[@caption='Protocols']"
+							fullname="Test00Repository.MyAssaysExplorer.Protocols"
+							id="77bf98d3540648b2a5f41c845e6d363f"
+							timeout="60000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewProtocol.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.943"
+						timeRelativeToTestModuleStartTime="00:03.106"
+						timeWallClock="16:35:32"
+						time="00:04.943"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MyAssaysExplorer.PARTImage' at 17;30.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container//list[@automationid='Ribbon']/list[1]/list[3]/element[@automationid='NewFileRibbonButton']//picture[@automationid='PART_Image']"
+							fullname="Test00Repository.MyAssaysExplorer.PARTImage"
+							id="d0fd404e105f440bbcdd43de46924e16"
+							timeout="60000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewProtocol.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="5.05s"
+					durationms="5052"
+					type="test module"
+					rid="24a1434f837f4790"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ChangeData_01"
+					moduleid="db741196-e6d7-4af7-ad1e-43816e404878"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.747"
+						timeRelativeToTestModuleStartTime="00:00.022"
+						timeWallClock="16:35:33"
+						time="00:05.747"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.IWillEnterPasteInMyData1' at 18;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/radiobutton[@text='I will enter/paste in my data']/text[@caption='I will enter/paste in my data']"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer2.IWillEnterPasteInMyData1"
+							id="dbb051f477fe4b41bbbfc9f98d2fd928"
+							timeout="75000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\ChangeData_01.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.450"
+						timeRelativeToTestModuleStartTime="00:01.726"
+						timeWallClock="16:35:35"
+						time="00:07.450"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 29;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+							id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+							timeout="90000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\ChangeData_01.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.301"
+						timeRelativeToTestModuleStartTime="00:02.577"
+						timeWallClock="16:35:35"
+						time="00:08.301"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeList' at 91;89.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeList"
+							id="fda180bd4621462fb7f3ff4f964c2634"
+							timeout="90000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\ChangeData_01.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.139"
+						timeRelativeToTestModuleStartTime="00:03.414"
+						timeWallClock="16:35:36"
+						time="00:09.139"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeList1' at 50;56.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[2]"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeList1"
+							id="1390cd0691aa49aaaaa0f3016925b219"
+							timeout="90000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\ChangeData_01.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.959"
+						timeRelativeToTestModuleStartTime="00:04.234"
+						timeWallClock="16:35:37"
+						time="00:09.959"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 27;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+							id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+							timeout="90000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\ChangeData_01.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="3.43s"
+					durationms="3430"
+					type="test module"
+					rid="2baf1d87ef276d2"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="DataFormat_01"
+					moduleid="e39484e0-c1e3-4c9f-84f5-49c4ae3b0e65"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.810"
+						timeRelativeToTestModuleStartTime="00:00.021"
+						timeWallClock="16:35:38"
+						time="00:10.810"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Microplate' at 54;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/container/radiobutton[@automationid='MicroplateRadioButton']/text[@caption='Microplate']"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Microplate"
+							id="6254aac866bd47378bc71129aecef263"
+							timeout="75000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_01.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.662"
+						timeRelativeToTestModuleStartTime="00:00.874"
+						timeWallClock="16:35:39"
+						time="00:11.662"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeList2' at 154;58.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[3]/list"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeList2"
+							id="959f44020ac44a6aa666425caa94a271"
+							timeout="75000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_01.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.507"
+						timeRelativeToTestModuleStartTime="00:01.718"
+						timeWallClock="16:35:40"
+						time="00:12.507"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 55;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+							id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+							timeout="90000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_01.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.350"
+						timeRelativeToTestModuleStartTime="00:02.561"
+						timeWallClock="16:35:40"
+						time="00:13.350"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 55;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+							id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+							timeout="90000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_01.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="17.99s"
+					durationms="17989"
+					type="test module"
+					rid="1ab4219fea2a42a0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="CreateNewMicroplate"
+					moduleid="1feb6012-4260-4009-9fee-26739c7755e1"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20' does not match the specified image.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.270"
+						timeRelativeToTestModuleStartTime="00:00.039"
+						timeWallClock="16:35:41"
+						time="00:14.270"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer' at 44;2.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element//container[@automationid='Self']/container/container/container/list[@automationid='CreateDropDownButton']/?/?/checkbox[@automationid='ToggleButton']/container"
+							fullname="Test00Repository.NewProtocolWizard.SomeContainer"
+							id="6eced81269284d23838022ed0b9822b6"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.259"
+						timeRelativeToTestModuleStartTime="00:01.027"
+						timeWallClock="16:35:42"
+						time="00:15.259"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MyAssaysDesktopExplorer.ListView' at 61;29.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/list[@automationid='ListView']"
+							fullname="Test00Repository.MyAssaysDesktopExplorer.ListView"
+							id="f7bca27af0fa47dd90359b4de605063f"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.470"
+						timeRelativeToTestModuleStartTime="00:02.238"
+						timeWallClock="16:35:44"
+						time="00:16.470"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LayoutEditor.SomeList.LargeImage1' at 8;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[3]/list/list/list[5]//picture[@automationid='LargeImage']"
+							fullname="Test00Repository.LayoutEditor.SomeList.LargeImage1"
+							id="060a977a61624e28906bedc962b9acd0"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.335"
+						timeRelativeToTestModuleStartTime="00:04.104"
+						timeWallClock="16:35:45"
+						time="00:18.335"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LayoutEditor.PARTElementPlateGrid.MAINRECT' at 516;357.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='MAIN_RECT']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.MAINRECT"
+							id="8923d0463a08471db19542f4c8e2c7c0"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.105"
+						timeRelativeToTestModuleStartTime="00:05.873"
+						timeWallClock="16:35:47"
+						time="00:20.105"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot2' with region {X=0,Y=0,Width=102,Height=102}) on item 'LayoutEditor.PARTElementPlateGrid.LAYOUT23'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_23']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT23"
+							id="efae53f4d0174e33be0038d28fa93622"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.503"
+						timeRelativeToTestModuleStartTime="00:07.272"
+						timeWallClock="16:35:49"
+						time="00:21.503"
+						level="Success"
+						category="Validation">
+						<message>
+							Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT23' does match the specified image.
+						</message>
+						<metainfo
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="99"
+							loglvl="Success"
+							id="efae53f4d0174e33be0038d28fa93622"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_23']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT23"
+							itemindex="4"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.675"
+						timeRelativeToTestModuleStartTime="00:07.444"
+						timeWallClock="16:35:49"
+						time="00:21.675"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LayoutEditor.PARTElementPlateGrid.MAINRECT' at 432;352.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='MAIN_RECT']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.MAINRECT"
+							id="8923d0463a08471db19542f4c8e2c7c0"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.534"
+						timeRelativeToTestModuleStartTime="00:09.302"
+						timeWallClock="16:35:51"
+						time="00:23.534"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LayoutEditor.PARTElementPlateGrid.MAINRECT' at 333;340.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='MAIN_RECT']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.MAINRECT"
+							id="8923d0463a08471db19542f4c8e2c7c0"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.495"
+						timeRelativeToTestModuleStartTime="00:11.264"
+						timeWallClock="16:35:53"
+						time="00:25.495"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LayoutEditor.PARTElementPlateGrid.MAINRECT' at 241;335.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='MAIN_RECT']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.MAINRECT"
+							id="8923d0463a08471db19542f4c8e2c7c0"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.336"
+						timeRelativeToTestModuleStartTime="00:13.104"
+						timeWallClock="16:35:54"
+						time="00:27.336"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LayoutEditor.SomeList.LargeImage' at 4;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[3]/list/list/list[5]/element[@automationid='ElementFillToggleButton']/container/container[2]/picture[@automationid='LargeImage']"
+							fullname="Test00Repository.LayoutEditor.SomeList.LargeImage"
+							id="4f37cac7d1d34db587ea319b9353ee9d"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.636"
+						timeRelativeToTestModuleStartTime="00:14.404"
+						timeWallClock="16:35:56"
+						time="00:28.636"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LayoutEditor.PARTElementPlateGrid.MAINRECT' at 255;365.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='MAIN_RECT']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.MAINRECT"
+							id="8923d0463a08471db19542f4c8e2c7c0"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.515"
+						timeRelativeToTestModuleStartTime="00:16.283"
+						timeWallClock="16:35:58"
+						time="00:30.515"
+						level="Info"
+						category="Validation"
+						errimg="images_Test00_2_3eb7e999\Test00_2_3eb7e999_9ca0f119_trace.jpg"
+						errthumb="images_Test00_2_3eb7e999\Test00_2_3eb7e999_9ca0f119_trace_thumb.jpg">
+						<message>
+							Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=102,Height=102}) on item 'LayoutEditor.PARTElementPlateGrid.LAYOUT20'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_20']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20"
+							id="e4c394cd92aa420c974fdf2cb97855bf"
+							timeout="45000"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.754"
+						timeRelativeToTestModuleStartTime="00:17.523"
+						timeWallClock="16:35:59"
+						time="00:31.754"
+						level="Failure"
+						category="Validation"
+						errimg="images_Test00_2_3eb7e999\Test00_2_3eb7e999_5d295f24_trace.jpg"
+						errthumb="images_Test00_2_3eb7e999\Test00_2_3eb7e999_5d295f24_trace_thumb.jpg">
+						<message>
+							Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20' does not match the specified image.
+						</message>
+						<metainfo
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="123"
+							loglvl="Failure"
+							id="e4c394cd92aa420c974fdf2cb97855bf"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_20']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20"
+							itemindex="10"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.876"
+						timeRelativeToTestModuleStartTime="00:17.645"
+						timeWallClock="16:35:59"
+						time="00:31.876"
+						level="Failure"
+						category="Expected image">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_Test00_2_3eb7e999\Test00_2_3d66ae84_rxlog.jpg"><img src="images_Test00_2_3eb7e999\Test00_2_3d66ae84_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="123"
+							loglvl="Failure"
+							itemindex="10"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.914"
+						timeRelativeToTestModuleStartTime="00:17.683"
+						timeWallClock="16:35:59"
+						time="00:31.914"
+						level="Failure"
+						category="Searched image">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_Test00_2_3eb7e999\Test00_2_c8cbae84_rxlog.jpg"><img src="images_Test00_2_3eb7e999\Test00_2_c8cbae84_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="123"
+							loglvl="Failure"
+							itemindex="10"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.936"
+						timeRelativeToTestModuleStartTime="00:17.705"
+						timeWallClock="16:35:59"
+						time="00:31.936"
+						level="Error"
+						category="Module"
+						errimg="images_Test00_2_3eb7e999\Test00_2_3eb7e999_304f4d04_trace.jpg"
+						errthumb="images_Test00_2_3eb7e999\Test00_2_3eb7e999_304f4d04_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20' does not match the specified image.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at Test00.CreateNewMicroplate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs:line 123
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+							codeline="123"
+							loglvl="Error"
+							id="e4c394cd92aa420c974fdf2cb97855bf"
+							path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_20']"
+							fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20"
+							itemindex="10"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

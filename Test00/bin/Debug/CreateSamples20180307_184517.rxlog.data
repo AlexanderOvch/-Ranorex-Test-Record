@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c9d4b2be044758"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 18:45:24"
+		timestampiso="2018-03-07T16:45:24"
+		timeoutfactor="1"
+		module="CreateSamples">
+		<detail>
+			CreateSamples
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.046"
+			timeRelativeToTestModuleStartTime="00:01.046"
+			timeWallClock="18:45:25"
+			time="00:01.046"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.SomeContainer1.PARTElementAddSampleButton' at 45;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//button[@automationid='PART_ElementAddSampleButton']"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.PARTElementAddSampleButton"
+				id="9b3a9078acee4457927c26b23da0bd07"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateSamples.cs"
+				codeline="82"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

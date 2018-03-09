@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="428dad4d2deadf7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 20:36:08"
+		timestampiso="2018-03-08T18:36:08"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="13.65s"
+			durationms="13649"
+			type="test suite"
+			rid="60e6952d84ea6fa"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="Test00"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="4">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="13.54s"
+				durationms="13543"
+				type="test case"
+				rid="3043348dfa4fd46"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="UserCode"
+				testcaseid="8a14ee66-12d9-4a4b-b4ae-46de0ef3078d"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="13.38s"
+					durationms="13383"
+					type="test module"
+					rid="d69d4a2a4abdfae"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenMaeCreateNewP"
+					moduleid="3fe93f3f-34f2-4b74-b16a-1621ec6a4dd0"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.971"
+						timeRelativeToTestModuleStartTime="00:00.031"
+						timeWallClock="20:36:09"
+						time="00:00.971"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe'
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\AutotestUserCode\OpenMaeCreateNewP.UserCode.cs"
+							codeline="32"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.727"
+						timeRelativeToTestModuleStartTime="00:00.788"
+						timeWallClock="20:36:10"
+						time="00:01.727"
+						level="Info"
+						category="mouse">
+						<message>
+							Left Click button 'Protocols' at center.
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\AutotestUserCode\OpenMaeCreateNewP.UserCode.cs"
+							codeline="37"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.277"
+						timeRelativeToTestModuleStartTime="00:12.338"
+						timeWallClock="20:36:21"
+						time="00:13.277"
+						level="Info"
+						category="Mouse">
+						<message>
+							Left Click button 'New' ar center.
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\AutotestUserCode\OpenMaeCreateNewP.UserCode.cs"
+							codeline="42"
+							loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

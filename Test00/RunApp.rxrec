@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="c6ff64e1-0c12-4e58-a5fb-ee7025ea6cd7"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		RunApp
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RunApp"
+	namespace="Test00"/>
+	<variables/>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe
+			</filename>
+			<workingdir>
+				C:\Program Files (x86)\MyAssays\MyAssays Desktop
+			</workingdir>
+			<args/>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	name="Test00Repository"
+	id="453d0877-3e0d-464c-83a3-73723f820b84"
+	rxversion="6.1"
+	relativepath="Test00Repository.rxrep">
+		<codegen
+		classname="Test00Repository"
+		namespace="Test00"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3b2bcd6d-22a3-40b6-8215-5d0655223a3b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RunApp.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="2643b144-6738-4c8a-8942-c4809c3dede3"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		ExitMAE
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ExitMAE"
+	namespace="Test00"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="b7e3bdce-0b96-4ffb-8084-f250ec953581"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="22"
+		sy="32"
+		loc="21;34">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="46394412-cefa-47da-a401-1652ee19c696">
+				<element
+				role="list"
+				prefcap="list"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="1,-2,1364,144"
+				snapElem="">
+					<attribute
+					name="automationid"
+					type="System.String">
+						Ribbon
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.Primitives.Selector
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Syncfusion.Windows.Tools.Controls.Ribbon
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Ribbon
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						Ribbon
+					</attribute>
+					<dynamicattribute
+					name="ActiveColorScheme"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ActiveColorScheme property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlternationCount"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.AlternationCount property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="AlternationIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.AlternationIndex property of type Int32."/>
+					<dynamicattribute
+					name="ApplicationMenuHeader"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ApplicationMenuHeader property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="AutoPersist"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.AutoPersist property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BackStageColor"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BackStageColor property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BackStageCornerImageVisibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BackStageCornerImageVisibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="BackStageHeader"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BackStageHeader property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.BorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="DisplayMemberPath"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.DisplayMemberPath property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="EnableMoreCommands"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.EnableMoreCommands property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="GroupStyleSelector"
+					type="System.Windows.Controls.GroupStyleSelector, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.GroupStyleSelector property of type GroupStyleSelector."
+					readonly="False"/>
+					<dynamicattribute
+					name="HasItems"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HasItems property of type Boolean."/>
+					<dynamicattribute
+					name="HasVisibleContextTabGroup"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HasVisibleContextTabGroup property of type Boolean."/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalContentAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HorizontalContentAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsAutoSizeFormEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsAutoSizeFormEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsContextTabChecked"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsContextTabChecked property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsGrouping"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsGrouping property of type Boolean."/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsQATBelow"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsQATBelow property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsQATItem"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsQATItem property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelected"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsSelected property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsSelectionActive"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsSelectionActive property of type Boolean."/>
+					<dynamicattribute
+					name="IsTabStop"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsTabStop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTextSearchCaseSensitive"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsTextSearchCaseSensitive property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTextSearchEnabled"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.IsTextSearchEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemBindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ItemBindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="ItemStringFormat"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ItemStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="KeyTip"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.KeyTip property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinimizeButtonVisibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MinimizeButtonVisibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="RibbonBarCollapseImage"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.RibbonBarCollapseImage property of type ImageSource."
+					readonly="False"/>
+					<dynamicattribute
+					name="RibbonQATCommandTag"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.RibbonQATCommandTag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SelectedIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedItem"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SelectedItem property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedValue"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SelectedValue property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="SelectedValuePath"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SelectedValuePath property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowDefaultQATKeyTip"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ShowDefaultQATKeyTip property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowInMoreCommands"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ShowInMoreCommands property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="SplitMenuKeyTip"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SplitMenuKeyTip property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabGroupLabelAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.TabGroupLabelAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabIndex"
+					type="System.Int32"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.TabIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabPanelItem"
+					type="System.Windows.Controls.Control, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.TabPanelItem property of type Control."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalContentAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.VerticalContentAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Width property of type Double."
+					readonly="False"/>
+					<dynamicaction
+					displayName="CloseModalTabs"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.CloseModalTabs method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="DeleteRibbonState"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.DeleteRibbonState method.">
+						<argument
+						displayName="isoStorage"
+						description="A method argument of type IsolatedStorageFile."
+						type="System.IO.IsolatedStorage.IsolatedStorageFile"/>
+						<argument
+						displayName="deleteFileName"
+						description="A method argument of type String."
+						type="System.String"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="Dispose"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Dispose method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="HideBackStage"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.HideBackStage method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="LoadRibbonState"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.LoadRibbonState method.">
+						<argument
+						displayName="isoStorage"
+						description="A method argument of type IsolatedStorageFile."
+						type="System.IO.IsolatedStorage.IsolatedStorageFile"/>
+						<argument
+						displayName="loadFileName"
+						description="A method argument of type String."
+						type="System.String"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="OnApplyTemplate"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.OnApplyTemplate method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ResetQATKeyTips"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ResetQATKeyTips method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ResetRibbonState"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ResetRibbonState method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="Ribbon_Click"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.Ribbon_Click method.">
+						<argument
+						displayName="sender"
+						description="A method argument of type Object."
+						type="System.Object"/>
+						<argument
+						displayName="e"
+						description="A method argument of type RoutedEventArgs."
+						type="System.Windows.RoutedEventArgs, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="SaveRibbonState"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.SaveRibbonState method.">
+						<argument
+						displayName="isoStorage"
+						description="A method argument of type IsolatedStorageFile."
+						type="System.IO.IsolatedStorage.IsolatedStorageFile"/>
+						<argument
+						displayName="storeFileName"
+						description="A method argument of type String."
+						type="System.String"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShowBackStage"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ShowBackStage method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShowModalTab"
+					description="The WPF Syncfusion.Windows.Tools.Controls.Ribbon.ShowModalTab method.">
+						<argument
+						displayName="ribbonTabName"
+						description="A method argument of type String."
+						type="System.String"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container/container/container/container/container/list[@automationid='Ribbon']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="36bda32a-1026-4b4a-ae31-e6a6d866e94f">
+				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
+R+HNadFAH//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="74030195-ba73-4814-9f30-1db28934fd54"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="40"
+		sy="226"
+		loc="0;7">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="c68ece0d-5e0f-4e99-a84e-2504b1597495">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="40,219,18,11"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Exit
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Exit
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						controlLabel
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						controlLabel
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BaselineOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHyphenationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineStackingStrategy"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextAlignment"
+					type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextDecorations"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextEffects"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextTrimming"
+					type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextWrapping"
+					type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+					readonly="False"/>
+					<dynamicaction
+					displayName="GetPositionFromPoint"
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+						<argument
+						displayName="point"
+						description="A method argument of type Point."
+						type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<argument
+						displayName="snapToText"
+						description="A method argument of type Boolean."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeBaselineOffset"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeInlines"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+						<argument
+						displayName="manager"
+						description="A method argument of type XamlDesignerSerializationManager."
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeText"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container//element[@automationid='BackStageContent']/list/element[@automationid='ExitCommandButton']//text[@automationid='controlLabel']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="7ad80a9d-b58d-421d-a40d-ca1c85b3a58e">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAyAFQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoKWo8
+yf3E/wC+j/hS7pP7if8AfR/wqedD5WSUVHuk/uJ/30f8KN8n9xP++z/hRzoOVktLUW+T+4n/AH2f
+8KN8n9xP++z/AIUc6DlZLSVHvk/uJ/32f8KN8n9xP++z/hRzoOVj6Kj3yf3E/wC+z/hRuk/uJ/30
+f8KOdBysfRTN0n9xP++j/hRRzoOVjqq6lcPbWhkjA35AGe1Wqo6wjvYnYpYhgcD0rM0jbmVyoJNU
+KbvMXBXdnaMY+tP+1zTaLLKx2yKwXcvHcf41EL7Ft5P2dtm3kYOd3rQiOugzF1K7nBAPpkUnsdKS
+5lddUEENzOwC3VzjALNkbVyAf72e/pVg6fdDGL+Y5OOM8f8Aj1VNPlKeW9zC7LOdkRR8IdoK7WBI
+GTt/HPtVyG0lHlrNGGw4LMSD8m1ht98Zx75z3NPlRnKvNNpfkiuRNDPZsLyWZJnHUkcZHv71tViP
+F5B06IxCIq+CBjk5Xnitukt2FVuUYt/1qFFFFMwCiiigBm9v+eT/AKf40bm/55P+n+NPpavk8xcx
+Hub/AJ5P+Y/xqO4i+0QNE8cgVsZwVz1z61Zoo5PMFNp3RSsLaJ9LNtKm+PfIpVv99v1rLtrG2e7e
+3WY3AxvR4pFPy8DDe/I+tX59On2vJHcFnjZpYIwNoDFixzzznO36E1Y02J4YZEaNok8wmNG2/Kpw
+cfLx1JqnFNWKjUlB3iytHpUUUqSKs+VIYZZe1X9z/wDPJ/zH+NTUlR7NLqEqsp/ERbm/55P+Y/xp
+Nzf88n/Mf41LRT5PMnmItzf88n/T/GipKKOTzDmEpaKKskWiiigBaWiigApKKKAEooooASiiigD/
+2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="Test00Repository"
+	id="453d0877-3e0d-464c-83a3-73723f820b84"
+	rxversion="6.1"
+	relativepath="Test00Repository.rxrep">
+		<codegen
+		classname="Test00Repository"
+		namespace="Test00"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3b2bcd6d-22a3-40b6-8215-5d0655223a3b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ExitMAE.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

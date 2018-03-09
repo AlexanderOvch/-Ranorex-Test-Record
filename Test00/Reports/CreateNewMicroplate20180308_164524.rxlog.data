@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5b04415c073ac5a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 16:45:33"
+		timestampiso="2018-03-08T14:45:33"
+		timeoutfactor="1"
+		module="CreateNewMicroplate">
+		<detail>
+			CreateNewMicroplate
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.086"
+			timeRelativeToTestModuleStartTime="00:01.088"
+			timeWallClock="16:45:34"
+			time="00:01.086"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LayoutEditor.PARTElementPlateGrid.MAINRECT' at 373;345.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='MAIN_RECT']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.MAINRECT"
+				id="8923d0463a08471db19542f4c8e2c7c0"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="82"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.070"
+			timeRelativeToTestModuleStartTime="00:05.072"
+			timeWallClock="16:45:38"
+			time="00:05.070"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'LayoutEditor.PARTElementPlateGrid.LAYOUT21'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_21']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT21"
+				id="62a038be83c540748cc149ffe08d025e"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="86"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.139"
+			timeRelativeToTestModuleStartTime="00:06.141"
+			timeWallClock="16:45:39"
+			time="00:06.139"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'LAYOUT21' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_21']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT21"
+				id="62a038be83c540748cc149ffe08d025e"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="13"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="20458af376f73360"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 14:53:29"
+		timestampiso="2018-03-07T12:53:29"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.953"
+			timeRelativeToTestModuleStartTime="00:00.953"
+			timeWallClock="14:53:30"
+			time="00:00.953"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.375"
+			timeRelativeToTestModuleStartTime="00:01.375"
+			timeWallClock="14:53:30"
+			time="00:01.375"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysExplorer.Protocols' at 56;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container/container/container/container/container/container[2]/tabpagelist[@automationid='TabControl']/tabpage[@index='2']/container[@automationid='PART_DockPanel']/text[@caption='Protocols']"
+				fullname="Test00Repository.MyAssaysExplorer.Protocols"
+				id="77bf98d3540648b2a5f41c845e6d363f"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.375"
+			timeRelativeToTestModuleStartTime="00:04.375"
+			timeWallClock="14:53:33"
+			time="00:04.375"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysExplorer.PARTImage' at 17;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container//list[@automationid='Ribbon']/list[1]/list[3]/element[@automationid='NewFileRibbonButton']//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.MyAssaysExplorer.PARTImage"
+				id="d0fd404e105f440bbcdd43de46924e16"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.542"
+			timeRelativeToTestModuleStartTime="00:05.542"
+			timeWallClock="14:53:35"
+			time="00:05.542"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.IWillEnterPasteInMyData' at 11;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/radiobutton[@text~'^I\ will\ enter/paste\ in\ my\ ']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.IWillEnterPasteInMyData"
+				id="68d3baef4d694568a3c011be5d600ac0"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.254"
+			timeRelativeToTestModuleStartTime="00:07.254"
+			timeWallClock="14:53:36"
+			time="00:07.254"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 28;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+				id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.051"
+			timeRelativeToTestModuleStartTime="00:08.051"
+			timeWallClock="14:53:37"
+			time="00:08.051"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeList' at 125;42.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeList"
+				id="fda180bd4621462fb7f3ff4f964c2634"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.879"
+			timeRelativeToTestModuleStartTime="00:08.879"
+			timeWallClock="14:53:38"
+			time="00:08.879"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeList1' at 64;40.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[2]"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeList1"
+				id="1390cd0691aa49aaaaa0f3016925b219"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.707"
+			timeRelativeToTestModuleStartTime="00:09.707"
+			timeWallClock="14:53:39"
+			time="00:09.707"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 24;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+				id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.504"
+			timeRelativeToTestModuleStartTime="00:10.504"
+			timeWallClock="14:53:39"
+			time="00:10.504"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'NewProtocolWizard.SomeContainer2.SomeElement' at 18;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/container/text[@caption='10']/element[2]"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeElement"
+				id="9bfd8267a61f48068d168f915b1e990d"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.189"
+			timeRelativeToTestModuleStartTime="00:11.189"
+			timeWallClock="14:53:40"
+			time="00:11.189"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'NewProtocolWizard.SomeContainer2.SomeElement' at 26;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/container/text[@caption='10']/element[2]"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeElement"
+				id="9bfd8267a61f48068d168f915b1e990d"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="119"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.843"
+			timeRelativeToTestModuleStartTime="00:11.843"
+			timeWallClock="14:53:41"
+			time="00:11.843"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'NewProtocolWizard.SomeContainer2.SomeContainer' at 174;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/container"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeContainer"
+				id="38fce03931cd4b82af0babe231043374"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="123"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.495"
+			timeRelativeToTestModuleStartTime="00:12.495"
+			timeWallClock="14:53:41"
+			time="00:12.495"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{NumPad1}{NumPad5}'.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="128"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.879"
+			timeRelativeToTestModuleStartTime="00:12.879"
+			timeWallClock="14:53:42"
+			time="00:12.879"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 27;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+				id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="132"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.636"
+			timeRelativeToTestModuleStartTime="00:13.636"
+			timeWallClock="14:53:43"
+			time="00:13.636"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Scroll Vertical by -360 units.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="136"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.151"
+			timeRelativeToTestModuleStartTime="00:14.151"
+			timeWallClock="14:53:43"
+			time="00:14.151"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Scroll Vertical by 120 units.
+			</message>
+			<metainfo
+				itemindex="14"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="140"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.729"
+			timeRelativeToTestModuleStartTime="00:14.729"
+			timeWallClock="14:53:44"
+			time="00:14.729"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 34;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+				id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="144"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.542"
+			timeRelativeToTestModuleStartTime="00:15.542"
+			timeWallClock="14:53:45"
+			time="00:15.542"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer1' at 135;87.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='Self']//list[@automationid='MainListBox']/container/listitem[1]/container/container/container[@automationid='ImageGrid']/container"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer1"
+				id="73717a7e3fe74a369e28a95356124451"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="148"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.516"
+			timeRelativeToTestModuleStartTime="00:16.516"
+			timeWallClock="14:53:45"
+			time="00:16.516"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.EditButton' at 64;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element//container[@automationid='Self']/container/container/button[@automationid='EditButton']"
+				fullname="Test00Repository.NewProtocolWizard.EditButton"
+				id="b2c20882fd204653886a385137864d67"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.cs"
+				codeline="152"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

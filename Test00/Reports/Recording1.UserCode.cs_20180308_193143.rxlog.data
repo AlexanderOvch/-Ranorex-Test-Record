@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="199598ae57b544e2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 19:31:54"
+		timestampiso="2018-03-08T17:31:54"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.103"
+			timeRelativeToTestModuleStartTime="00:01.104"
+			timeWallClock="19:31:55"
+			time="00:01.103"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe'
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\AutotestHumanCod\Recording1.UserCode.cs"
+				codeline="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.501"
+			timeRelativeToTestModuleStartTime="00:01.502"
+			timeWallClock="19:31:56"
+			time="00:01.501"
+			level="Info"
+			category="mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysExplorer.Protocols' at center.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\AutotestHumanCod\Recording1.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.879"
+			timeRelativeToTestModuleStartTime="00:05.880"
+			timeWallClock="19:32:00"
+			time="00:05.879"
+			level="Info"
+			category="Mouse">
+			<message>
+				Left Click button 'New' ar center.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\AutotestHumanCod\Recording1.UserCode.cs"
+				codeline="42"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

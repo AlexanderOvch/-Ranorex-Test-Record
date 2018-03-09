@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b3e422eaa4b5eec"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 20:26:15"
+		timestampiso="2018-03-07T18:26:15"
+		timeoutfactor="1"
+		module="DataFormat_02">
+		<detail>
+			DataFormat_02
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.906"
+			timeRelativeToTestModuleStartTime="00:00.906"
+			timeWallClock="20:26:16"
+			time="00:00.906"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 9;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+				id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_02.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.172"
+			timeRelativeToTestModuleStartTime="00:03.172"
+			timeWallClock="20:26:18"
+			time="00:03.172"
+			level="Info"
+			category="Mouse"
+			errimg=".\DataForm_d5f41680_d2a0cd56_trace.jpg"
+			errthumb=".\DataForm_d5f41680_d2a0cd56_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.AdvancedViewButton' at 40;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/button[@automationid='AdvancedViewButton']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.AdvancedViewButton"
+				id="1a0581bbe67b4e4dbc7bfdd994e7d69a"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_02.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.735"
+			timeRelativeToTestModuleStartTime="00:06.735"
+			timeWallClock="20:26:21"
+			time="00:06.735"
+			level="Info"
+			category="Mouse"
+			errimg=".\DataForm_d5f41680_b59f9846_trace.jpg"
+			errthumb=".\DataForm_d5f41680_b59f9846_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.AddSampleType' at 83;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='Add Sample Type']"
+				fullname="Test00Repository.SampleTypesEditor.SomeContainer1.AddSampleType"
+				id="1569ef9f6a134f10aa615f9d84e1016a"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\DataFormat_02.cs"
+				codeline="88"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.564"
+			timeRelativeToTestModuleStartTime="00:10.564"
+			timeWallClock="20:26:25"
+			time="00:10.564"
+			level="Error"
+			category="User"
+			errimg=".\DataForm_d5f41680_cd3ce3cd_trace.jpg"
+			errthumb=".\DataForm_d5f41680_cd3ce3cd_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

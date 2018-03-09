@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e00de9d9a9e288c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 16:55:53"
+		timestampiso="2018-03-07T14:55:53"
+		timeoutfactor="1"
+		module="CreateNewSamples">
+		<detail>
+			CreateNewSamples
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.843"
+			timeRelativeToTestModuleStartTime="00:00.843"
+			timeWallClock="16:55:54"
+			time="00:00.843"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.CreateMultipleLayoutButton' at 41;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element//container[@automationid='Self']/container/container/container/button[@automationid='CreateMultipleLayoutButton']"
+				fullname="Test00Repository.NewProtocolWizard.CreateMultipleLayoutButton"
+				id="0eade8c8c6a8424b88498e742cd4e84d"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewSamples.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.250"
+			timeRelativeToTestModuleStartTime="00:03.250"
+			timeWallClock="16:55:56"
+			time="00:03.250"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.InnerPath2' at 28;38.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']//element[@automationid='InnerPath']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.InnerPath2"
+				id="af785ecec9b6402bb9eb6e6631ab8f91"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewSamples.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.879"
+			timeRelativeToTestModuleStartTime="00:04.879"
+			timeWallClock="16:55:58"
+			time="00:04.879"
+			level="Info"
+			category="Mouse"
+			errimg=".\CreateNe_2e441b4a_0f9170a9_trace.jpg"
+			errthumb=".\CreateNe_2e441b4a_0f9170a9_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementAddButtonTextBlock' at 9;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//button[@automationid='PART_ElementAddSampleButton']/?/?/text[@automationid='PART_ElementAddButtonTextBlock']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementAddButtonTextBlock"
+				id="0793d3f534e348e7b3bece3aef8e76ee"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewSamples.cs"
+				codeline="88"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.381"
+			timeRelativeToTestModuleStartTime="00:05.381"
+			timeWallClock="16:55:58"
+			time="00:05.381"
+			level="Info"
+			category="Mouse"
+			errimg=".\CreateNe_2e441b4a_1207a1f6_trace.jpg"
+			errthumb=".\CreateNe_2e441b4a_1207a1f6_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTImage2' at 0;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[2]//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTImage2"
+				id="ec156874cbc649208e1b0b4ec3960752"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewSamples.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.384"
+			timeRelativeToTestModuleStartTime="00:12.384"
+			timeWallClock="16:56:05"
+			time="00:12.384"
+			level="Error"
+			category="User"
+			errimg=".\CreateNe_2e441b4a_06df4c6e_trace.jpg"
+			errthumb=".\CreateNe_2e441b4a_06df4c6e_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

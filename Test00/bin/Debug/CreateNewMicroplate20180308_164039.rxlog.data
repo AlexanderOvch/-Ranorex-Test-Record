@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1e54f3edfcc98a0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 16:40:48"
+		timestampiso="2018-03-08T14:40:48"
+		timeoutfactor="1"
+		module="CreateNewMicroplate">
+		<detail>
+			CreateNewMicroplate
+		</detail>
+		<errmsg>
+			Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20' does not match the specified image.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.091"
+			timeRelativeToTestModuleStartTime="00:01.092"
+			timeWallClock="16:40:49"
+			time="00:01.091"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LayoutEditor.PARTElementPlateGrid.MAINRECT' at 255;365.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='MAIN_RECT']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.MAINRECT"
+				id="8923d0463a08471db19542f4c8e2c7c0"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="82"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.018"
+			timeRelativeToTestModuleStartTime="00:06.019"
+			timeWallClock="16:40:54"
+			time="00:06.018"
+			level="Info"
+			category="Validation"
+			errimg=".\CreateNe_83fa2d6_a08df241_trace.jpg"
+			errthumb=".\CreateNe_83fa2d6_a08df241_trace_thumb.jpg">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=102,Height=102}) on item 'LayoutEditor.PARTElementPlateGrid.LAYOUT20'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_20']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20"
+				id="e4c394cd92aa420c974fdf2cb97855bf"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="86"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.218"
+			timeRelativeToTestModuleStartTime="00:07.219"
+			timeWallClock="16:40:55"
+			time="00:07.218"
+			level="Failure"
+			category="Validation"
+			errimg=".\CreateNe_83fa2d6_e1c645d6_trace.jpg"
+			errthumb=".\CreateNe_83fa2d6_e1c645d6_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20' does not match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="87"
+				loglvl="Failure"
+				id="e4c394cd92aa420c974fdf2cb97855bf"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_20']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20"
+				itemindex="10"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.271"
+			timeRelativeToTestModuleStartTime="00:07.273"
+			timeWallClock="16:40:55"
+			time="00:07.271"
+			level="Failure"
+			category="Expected image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\CreateNe_827eebbb_rxlog.jpg"><img src=".\CreateNe_827eebbb_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="87"
+				loglvl="Failure"
+				itemindex="10"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.313"
+			timeRelativeToTestModuleStartTime="00:07.315"
+			timeWallClock="16:40:55"
+			time="00:07.313"
+			level="Failure"
+			category="Searched image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\CreateNe_f719ebbb_rxlog.jpg"><img src=".\CreateNe_f719ebbb_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="87"
+				loglvl="Failure"
+				itemindex="10"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.333"
+			timeRelativeToTestModuleStartTime="00:07.335"
+			timeWallClock="16:40:55"
+			time="00:07.333"
+			level="Error"
+			category="Module"
+			errimg=".\CreateNe_83fa2d6_b24a39e3_trace.jpg"
+			errthumb=".\CreateNe_83fa2d6_b24a39e3_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20' does not match the specified image.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at Test00.CreateNewMicroplate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs:line 87
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="87"
+				loglvl="Error"
+				id="e4c394cd92aa420c974fdf2cb97855bf"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_20']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.LAYOUT20"
+				itemindex="10"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="abdad544db2aa22"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="09.03.2018 9:46:49"
+		timestampiso="2018-03-09T07:46:49"
+		timeoutfactor="1"
+		module="Settings_CheckBox_And_Manage_Types">
+		<detail>
+			Settings_CheckBox_And_Manage_Types
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.960"
+			timeRelativeToTestModuleStartTime="00:00.961"
+			timeWallClock="09:46:50"
+			time="00:00.960"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.AddSampleType' at 83;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='Add Sample Type']"
+				fullname="Test00Repository.SampleTypesEditor.SomeContainer1.AddSampleType"
+				id="1569ef9f6a134f10aa615f9d84e1016a"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="82"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.535"
+			timeRelativeToTestModuleStartTime="00:03.536"
+			timeWallClock="09:46:52"
+			time="00:03.535"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'SampleTypesEditor.SomeContainer1.SomeElement' at 85;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text/element[2]"
+				fullname="Test00Repository.SampleTypesEditor.SomeContainer1.SomeElement"
+				id="ae8b49a8e8ec457e9d4397fd8bb394ae"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="85"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.807"
+			timeRelativeToTestModuleStartTime="00:03.808"
+			timeWallClock="09:46:52"
+			time="00:03.807"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'SampleTypesEditor.SomeContainer1.SomeElement' at 93;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text/element[2]"
+				fullname="Test00Repository.SampleTypesEditor.SomeContainer1.SomeElement"
+				id="ae8b49a8e8ec457e9d4397fd8bb394ae"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="89"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.042"
+			timeRelativeToTestModuleStartTime="00:04.043"
+			timeWallClock="09:46:53"
+			time="00:04.042"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'SampleTypesEditor.SomeContainer1.SomeContainer2' at 6;311.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container"
+				fullname="Test00Repository.SampleTypesEditor.SomeContainer1.SomeContainer2"
+				id="b0f4a74a9fe04548b64921cdcfff367c"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="92"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.171"
+			timeRelativeToTestModuleStartTime="00:04.172"
+			timeWallClock="09:46:53"
+			time="00:04.171"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}T{LShiftKey up}est00'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="96"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.591"
+			timeRelativeToTestModuleStartTime="00:04.592"
+			timeWallClock="09:46:53"
+			time="00:04.591"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.SomeContainer1' at 146;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']/container"
+				fullname="Test00Repository.SampleTypesEditor.SomeContainer1.SomeContainer1"
+				id="ce13c705fe094e52b86b2c4b9cfd5688"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="99"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.015"
+			timeRelativeToTestModuleStartTime="00:05.016"
+			timeWallClock="09:46:54"
+			time="00:05.015"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.SomeContainer2' at 72;78.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']/container/container[1]"
+				fullname="Test00Repository.MyAssaysDesktopExplorer.SomeContainer2"
+				id="b640c8d1d2c24c9f883a830708d19af5"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="102"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.981"
+			timeRelativeToTestModuleStartTime="00:05.982"
+			timeWallClock="09:46:55"
+			time="00:05.981"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.Arrow' at 0;0.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/container/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']/element[@automationid='Arrow']"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.Arrow"
+				id="1e7b9681907a45b282b248f89031f2d3"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="105"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.387"
+			timeRelativeToTestModuleStartTime="00:06.388"
+			timeWallClock="09:46:55"
+			time="00:06.387"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.SomeListItem2' at 47;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[4]"
+				fullname="Test00Repository.MyAssaysDesktopExplorer.SomeListItem2"
+				id="80c2c3c48e9042f7acc8b67b8c8c89d2"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="108"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.137"
+			timeRelativeToTestModuleStartTime="00:07.138"
+			timeWallClock="09:46:56"
+			time="00:07.137"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Test00') on item 'SampleTypesEditor.SampleTypesSimplifiedView.Test00'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='Test00']"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.Test00"
+				id="04655e1fe0894e6b80f4dfd2f8989eda"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="111"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.291"
+			timeRelativeToTestModuleStartTime="00:07.292"
+			timeWallClock="09:46:56"
+			time="00:07.291"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.Test00' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/text[@caption='Test00']"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.Test00"
+				id="04655e1fe0894e6b80f4dfd2f8989eda"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="112"
+				loglvl="Success"
+				itemindex="11"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.307"
+			timeRelativeToTestModuleStartTime="00:07.308"
+			timeWallClock="09:46:56"
+			time="00:07.307"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Checked='False') on item 'SampleTypesEditor.ToggleButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="Test00Repository.SampleTypesEditor.ToggleButton"
+				id="4aaff1bfa2dc4bc58b33e8085427ea3a"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="114"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.481"
+			timeRelativeToTestModuleStartTime="00:07.482"
+			timeWallClock="09:46:56"
+			time="00:07.481"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Checked' of element for item 'Test00Repository.SampleTypesEditor.ToggleButton' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="Test00Repository.SampleTypesEditor.ToggleButton"
+				id="4aaff1bfa2dc4bc58b33e8085427ea3a"
+				timeout="30000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="115"
+				loglvl="Success"
+				itemindex="12"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.481"
+			timeRelativeToTestModuleStartTime="00:07.482"
+			timeWallClock="09:46:56"
+			time="00:07.481"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=158,Height=26}) on item 'SampleTypesEditor.SampleTypesSimplifiedView.ColorToggleButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.ColorToggleButton"
+				id="a181d5c3aca24ffb9f3919d5829330ed"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="117"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.782"
+			timeRelativeToTestModuleStartTime="00:07.783"
+			timeWallClock="09:46:56"
+			time="00:07.782"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.ColorToggleButton' does match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="118"
+				loglvl="Success"
+				id="a181d5c3aca24ffb9f3919d5829330ed"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.ColorToggleButton"
+				itemindex="13"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.798"
+			timeRelativeToTestModuleStartTime="00:07.799"
+			timeWallClock="09:46:56"
+			time="00:07.798"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture' at 10;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]/button/picture"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture"
+				id="476fd348a16f4d96814761b66c2c928d"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="120"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.111"
+			timeRelativeToTestModuleStartTime="00:08.112"
+			timeWallClock="09:46:57"
+			time="00:08.111"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating NotExists on item 'SampleTypesEditor.SampleTypesSimplifiedView.SomeContainer1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomeContainer1"
+				id="e1413959e6cb44b8b0d2e1824b8c2132"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="123"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.104"
+			timeRelativeToTestModuleStartTime="00:40.105"
+			timeWallClock="09:47:29"
+			time="00:40.104"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomeContainer1' does not exist (Failed to find item 'Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomeContainer1'. No element found for path './/list[@automationid='SampleTypesSimplifiedView']/container/container[10]' within 30s.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]"
+				fullname="Test00Repository.SampleTypesEditor.SampleTypesSimplifiedView.SomeContainer1"
+				id="e1413959e6cb44b8b0d2e1824b8c2132"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="124"
+				loglvl="Success"
+				itemindex="15"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.113"
+			timeRelativeToTestModuleStartTime="00:40.114"
+			timeWallClock="09:47:29"
+			time="00:40.113"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ButtonOK' at 37;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='OK']"
+				fullname="Test00Repository.SampleTypesEditor.SomeContainer1.ButtonOK"
+				id="146fb49b10c84da4ad40934b9ccb9ad8"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Settings_CheckBox_And_Manage_Types.cs"
+				codeline="126"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

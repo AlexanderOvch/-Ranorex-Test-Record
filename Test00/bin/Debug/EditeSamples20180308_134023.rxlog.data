@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1bbbd582f86c3426"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 13:40:42"
+		timestampiso="2018-03-08T11:40:42"
+		timeoutfactor="1"
+		module="EditeSamples">
+		<detail>
+			EditeSamples
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.124"
+			timeRelativeToTestModuleStartTime="00:01.125"
+			timeWallClock="13:40:43"
+			time="00:01.124"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot3' with region {X=0,Y=0,Width=768,Height=142}) on item 'RackLayoutEditor.SomeContainer1.PARTElementPreviewImage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]/?/?/container[@automationid='Grid']/picture[@automationid='PART_ElementPreviewImage']"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.PARTElementPreviewImage"
+				id="f0a3dd535dae43cd857523a3345c9239"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="82"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.207"
+			timeRelativeToTestModuleStartTime="00:04.208"
+			timeWallClock="13:40:46"
+			time="00:04.207"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'Test00Repository.RackLayoutEditor.SomeContainer1.PARTElementPreviewImage' does match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="83"
+				loglvl="Success"
+				id="f0a3dd535dae43cd857523a3345c9239"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]/?/?/container[@automationid='Grid']/picture[@automationid='PART_ElementPreviewImage']"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.PARTElementPreviewImage"
+				itemindex="19"/>
+		</item>
+	</activity>
+</report>

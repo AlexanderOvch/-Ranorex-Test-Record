@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1dbde485609150f"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 15:16:04"
+		timestampiso="2018-03-07T13:16:04"
+		timeoutfactor="1"
+		module="EditeSamples">
+		<detail>
+			EditeSamples
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.906"
+			timeRelativeToTestModuleStartTime="00:00.906"
+			timeWallClock="15:16:05"
+			time="00:00.906"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Scroll Vertical by -360 units.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.453"
+			timeRelativeToTestModuleStartTime="00:01.453"
+			timeWallClock="15:16:06"
+			time="00:01.453"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Scroll Vertical by 120 units.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.015"
+			timeRelativeToTestModuleStartTime="00:02.015"
+			timeWallClock="15:16:06"
+			time="00:02.015"
+			level="Info"
+			category="Mouse"
+			errimg=".\EditeSam_41832246_a9ac4dc7_trace.jpg"
+			errthumb=".\EditeSam_41832246_a9ac4dc7_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 34;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.Next"
+				id="68f7f19e6b7b4b3fb0f1323e29a9d8df"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.754"
+			timeRelativeToTestModuleStartTime="00:05.754"
+			timeWallClock="15:16:10"
+			time="00:05.754"
+			level="Info"
+			category="Mouse"
+			errimg=".\EditeSam_41832246_9902f3d9_trace.jpg"
+			errthumb=".\EditeSam_41832246_9902f3d9_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer1' at 135;87.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='Self']//list[@automationid='MainListBox']/container/listitem[1]/container/container/container[@automationid='ImageGrid']/container"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer1"
+				id="73717a7e3fe74a369e28a95356124451"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.712"
+			timeRelativeToTestModuleStartTime="00:22.712"
+			timeWallClock="15:16:27"
+			time="00:22.712"
+			level="Error"
+			category="User"
+			errimg=".\EditeSam_41832246_eab210f2_trace.jpg"
+			errthumb=".\EditeSam_41832246_eab210f2_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2f144f0d7ead7528"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 12:04:14"
+		timestampiso="2018-03-08T10:04:14"
+		timeoutfactor="1"
+		module="EditeSamples">
+		<detail>
+			EditeSamples
+		</detail>
+		<errmsg>
+			Screenshot of item 'Test00Repository.RackLayoutEditor.SomeContainer1.SomeElement1' does not match the specified image.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.237"
+			timeRelativeToTestModuleStartTime="00:01.238"
+			timeWallClock="12:04:16"
+			time="00:01.237"
+			level="Info"
+			category="Validation"
+			errimg=".\EditeSam_e5b0cba5_73c465c0_trace.jpg"
+			errthumb=".\EditeSam_e5b0cba5_73c465c0_trace_thumb.jpg">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=74,Height=22}) on item 'RackLayoutEditor.SomeContainer1.SomeElement1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//text[@automationid='PART_ElementReplicatesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.SomeElement1"
+				id="7eb36d351db8490c88efe3f20b091cae"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="82"
+				itemindex="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.534"
+			timeRelativeToTestModuleStartTime="00:04.535"
+			timeWallClock="12:04:19"
+			time="00:04.534"
+			level="Failure"
+			category="Validation"
+			errimg=".\EditeSam_e5b0cba5_23007d8d_trace.jpg"
+			errthumb=".\EditeSam_e5b0cba5_23007d8d_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'Test00Repository.RackLayoutEditor.SomeContainer1.SomeElement1' does not match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="83"
+				loglvl="Failure"
+				id="7eb36d351db8490c88efe3f20b091cae"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//text[@automationid='PART_ElementReplicatesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.SomeElement1"
+				itemindex="37"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.634"
+			timeRelativeToTestModuleStartTime="00:04.635"
+			timeWallClock="12:04:19"
+			time="00:04.634"
+			level="Failure"
+			category="Expected image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\EditeSam_5edc37f5_rxlog.jpg"><img src=".\EditeSam_5edc37f5_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="37"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.671"
+			timeRelativeToTestModuleStartTime="00:04.673"
+			timeWallClock="12:04:19"
+			time="00:04.671"
+			level="Failure"
+			category="Searched image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\EditeSam_5edc37f4_rxlog.jpg"><img src=".\EditeSam_5edc37f4_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="37"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.690"
+			timeRelativeToTestModuleStartTime="00:04.692"
+			timeWallClock="12:04:19"
+			time="00:04.690"
+			level="Error"
+			category="Module"
+			errimg=".\EditeSam_e5b0cba5_3d1faa51_trace.jpg"
+			errthumb=".\EditeSam_e5b0cba5_3d1faa51_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'Test00Repository.RackLayoutEditor.SomeContainer1.SomeElement1' does not match the specified image.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at Test00.EditeSamples.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="83"
+				loglvl="Error"
+				id="7eb36d351db8490c88efe3f20b091cae"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//text[@automationid='PART_ElementReplicatesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.SomeElement1"
+				itemindex="37"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1ddd3893d618bece"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 11:56:06"
+		timestampiso="2018-03-08T09:56:06"
+		timeoutfactor="1"
+		module="EditeSamples">
+		<detail>
+			EditeSamples
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.100"
+			timeRelativeToTestModuleStartTime="00:01.101"
+			timeWallClock="11:56:08"
+			time="00:01.100"
+			level="Info"
+			category="Mouse"
+			errimg=".\EditeSam_f1309068_5f61ff15_trace.jpg"
+			errthumb=".\EditeSam_f1309068_5f61ff15_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.SomeListItem1' at 82;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[2]"
+				fullname="Test00Repository.MyAssaysDesktopExplorer.SomeListItem1"
+				id="3c4de225f8e445fdb287ba6a10432640"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="82"
+				itemindex="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.402"
+			timeRelativeToTestModuleStartTime="00:14.403"
+			timeWallClock="11:56:21"
+			time="00:14.402"
+			level="Error"
+			category="User"
+			errimg=".\EditeSam_f1309068_a25f2642_trace.jpg"
+			errthumb=".\EditeSam_f1309068_a25f2642_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

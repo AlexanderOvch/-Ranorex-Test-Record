@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2e6f61fc18388c54"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 17:03:44"
+		timestampiso="2018-03-08T15:03:44"
+		timeoutfactor="1"
+		module="CreateNewMicroplate">
+		<detail>
+			CreateNewMicroplate
+		</detail>
+		<errmsg>
+			Screenshot of item 'Test00Repository.NewProtocolWizard.SomeContainer2.SomeContainer1' does not match the specified image.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.209"
+			timeRelativeToTestModuleStartTime="00:01.211"
+			timeWallClock="17:03:45"
+			time="00:01.209"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot3' with region {X=0,Y=0,Width=216,Height=512}) on item 'LayoutEditor.PARTElementPlateGrid.PARTElementPlateListView'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/list[@automationid='PART_ElementPlateListView']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.PARTElementPlateListView"
+				id="9e080b90209a47c2a339c61ec63179ab"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="82"
+				itemindex="28"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.498"
+			timeRelativeToTestModuleStartTime="00:05.500"
+			timeWallClock="17:03:50"
+			time="00:05.498"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.PARTElementPlateListView' does match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="83"
+				loglvl="Success"
+				id="9e080b90209a47c2a339c61ec63179ab"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/list[@automationid='PART_ElementPlateListView']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.PARTElementPlateListView"
+				itemindex="28"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.624"
+			timeRelativeToTestModuleStartTime="00:05.626"
+			timeWallClock="17:03:50"
+			time="00:05.624"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LayoutEditor.ElementPlateRibbonBar.Duplicate' at 8;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[3]//list[@automationid='ElementPlateRibbonBar']/element[@automationid='ElementDuplicatePlateButton']//list[@automationid='PART_Label']/?/?/text[@caption='Duplicate ']"
+				fullname="Test00Repository.LayoutEditor.ElementPlateRibbonBar.Duplicate"
+				id="50d3ec24e1ec424b871e4e1de4967769"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="86"
+				itemindex="29"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.055"
+			timeRelativeToTestModuleStartTime="00:07.057"
+			timeWallClock="17:03:51"
+			time="00:07.055"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot2' with region {X=0,Y=0,Width=216,Height=512}) on item 'LayoutEditor.PARTElementPlateGrid.PARTElementPlateListView'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/list[@automationid='PART_ElementPlateListView']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.PARTElementPlateListView"
+				id="9e080b90209a47c2a339c61ec63179ab"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="90"
+				itemindex="30"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.789"
+			timeRelativeToTestModuleStartTime="00:07.791"
+			timeWallClock="17:03:52"
+			time="00:07.789"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.PARTElementPlateListView' does match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="91"
+				loglvl="Success"
+				id="9e080b90209a47c2a339c61ec63179ab"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/list[@automationid='PART_ElementPlateListView']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.PARTElementPlateListView"
+				itemindex="30"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.944"
+			timeRelativeToTestModuleStartTime="00:07.946"
+			timeWallClock="17:03:52"
+			time="00:07.944"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LayoutEditor.SomeList.Clear' at 14;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[3]/list/list/list[3]//list[@automationid='PART_Label']/?/?/text[@caption='Clear ']"
+				fullname="Test00Repository.LayoutEditor.SomeList.Clear"
+				id="05274ed7e0ec4345a1411b9fdd8b7ffd"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="94"
+				itemindex="31"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.038"
+			timeRelativeToTestModuleStartTime="00:09.041"
+			timeWallClock="17:03:53"
+			time="00:09.038"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot2' with region {X=0,Y=0,Width=646,Height=461}) on item 'LayoutEditor.PARTElementPlateGrid.RootCanvas'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.RootCanvas"
+				id="997492718bc04786bffd4263d230ddd7"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="98"
+				itemindex="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.890"
+			timeRelativeToTestModuleStartTime="00:09.892"
+			timeWallClock="17:03:54"
+			time="00:09.890"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'Test00Repository.LayoutEditor.PARTElementPlateGrid.RootCanvas' does match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="99"
+				loglvl="Success"
+				id="997492718bc04786bffd4263d230ddd7"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']"
+				fullname="Test00Repository.LayoutEditor.PARTElementPlateGrid.RootCanvas"
+				itemindex="32"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.011"
+			timeRelativeToTestModuleStartTime="00:10.014"
+			timeWallClock="17:03:54"
+			time="00:10.011"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LayoutEditor.ElementPlateRibbonBar.PARTImage1' at 29;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[3]//list[@automationid='ElementPlateRibbonBar']/element[@automationid='ElementRemovePlateButton']//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.LayoutEditor.ElementPlateRibbonBar.PARTImage1"
+				id="55e1a295e8644152882d124cb84171f7"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="102"
+				itemindex="33"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.386"
+			timeRelativeToTestModuleStartTime="00:11.388"
+			timeWallClock="17:03:55"
+			time="00:11.386"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LayoutEditor.SomeList.And' at 18;-3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[3]/list/?/?/list[@automationid='ChildBlock']//list[@automationid='PART_Label']/?/?/text[@caption='and ']"
+				fullname="Test00Repository.LayoutEditor.SomeList.And"
+				id="3772c581f4ab48a982403b2690aa96e7"
+				timeout="45000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="106"
+				itemindex="34"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.645"
+			timeRelativeToTestModuleStartTime="00:12.647"
+			timeWallClock="17:03:57"
+			time="00:12.645"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=251,Height=177}) on item 'NewProtocolWizard.SomeContainer2.SomeContainer1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//list[@automationid='MainListBox']/container/listitem[4]/container/container/container[@automationid='ImageGrid']/container"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeContainer1"
+				id="267ba0b3daf247bca6407ca5ca206a55"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="110"
+				itemindex="35"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.037"
+			timeRelativeToTestModuleStartTime="00:14.039"
+			timeWallClock="17:03:58"
+			time="00:14.037"
+			level="Warn"
+			category="WPF"
+			errimg=".\CreateNe_db96d06a_8db471db_trace.jpg"
+			errthumb=".\CreateNe_db96d06a_8db471db_trace_thumb.jpg">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#wpf-instrumentation<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="111"
+				loglvl="Warn"
+				itemindex="35"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.445"
+			timeRelativeToTestModuleStartTime="00:14.447"
+			timeWallClock="17:03:59"
+			time="00:14.445"
+			level="Failure"
+			category="Validation"
+			errimg=".\CreateNe_db96d06a_4a06614c_trace.jpg"
+			errthumb=".\CreateNe_db96d06a_4a06614c_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'Test00Repository.NewProtocolWizard.SomeContainer2.SomeContainer1' does not match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="111"
+				loglvl="Failure"
+				id="267ba0b3daf247bca6407ca5ca206a55"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//list[@automationid='MainListBox']/container/listitem[4]/container/container/container[@automationid='ImageGrid']/container"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeContainer1"
+				itemindex="35"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.523"
+			timeRelativeToTestModuleStartTime="00:14.526"
+			timeWallClock="17:03:59"
+			time="00:14.523"
+			level="Failure"
+			category="Expected image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\CreateNe_f83770a7_rxlog.jpg"><img src=".\CreateNe_f83770a7_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="111"
+				loglvl="Failure"
+				itemindex="35"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.569"
+			timeRelativeToTestModuleStartTime="00:14.571"
+			timeWallClock="17:03:59"
+			time="00:14.569"
+			level="Failure"
+			category="Searched image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\CreateNe_839c70a7_rxlog.jpg"><img src=".\CreateNe_839c70a7_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="111"
+				loglvl="Failure"
+				itemindex="35"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.588"
+			timeRelativeToTestModuleStartTime="00:14.590"
+			timeWallClock="17:03:59"
+			time="00:14.588"
+			level="Error"
+			category="Module"
+			errimg=".\CreateNe_db96d06a_11fea6cb_trace.jpg"
+			errthumb=".\CreateNe_db96d06a_11fea6cb_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'Test00Repository.NewProtocolWizard.SomeContainer2.SomeContainer1' does not match the specified image.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at Test00.CreateNewMicroplate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs:line 111
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\CreateNewMicroplate.cs"
+				codeline="111"
+				loglvl="Error"
+				id="267ba0b3daf247bca6407ca5ca206a55"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container//list[@automationid='MainListBox']/container/listitem[4]/container/container/container[@automationid='ImageGrid']/container"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer2.SomeContainer1"
+				itemindex="35"/>
+		</item>
+	</activity>
+</report>

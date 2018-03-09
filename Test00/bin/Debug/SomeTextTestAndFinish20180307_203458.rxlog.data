@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a949c48afe0a0e4"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 20:35:06"
+		timestampiso="2018-03-07T18:35:06"
+		timeoutfactor="1"
+		module="SomeTextTestAndFinish">
+		<detail>
+			SomeTextTestAndFinish
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.034"
+			timeRelativeToTestModuleStartTime="00:01.036"
+			timeWallClock="20:35:07"
+			time="00:01.034"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ProtocolMyEndpointDualRacksOf15.Ribbon' at 19;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ Dua' and @processname='MyAssays.Desktop.Analysis']/container/container/container/container/container/container[@automationid='LayoutRoot']/list[@automationid='Ribbon']"
+				fullname="Test00Repository.ProtocolMyEndpointDualRacksOf15.Ribbon"
+				id="671ab1ec75874eb986d5eddf60ae1fe0"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="82"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.610"
+			timeRelativeToTestModuleStartTime="00:06.612"
+			timeWallClock="20:35:13"
+			time="00:06.610"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#wpf-instrumentation<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="17"/>
+		</item>
+	</activity>
+</report>

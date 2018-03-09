@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7f06ff40a9715dd"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 20:45:47"
+		timestampiso="2018-03-07T18:45:47"
+		timeoutfactor="1"
+		module="EditeSamples">
+		<detail>
+			EditeSamples
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.955"
+			timeRelativeToTestModuleStartTime="00:00.955"
+			timeWallClock="20:45:48"
+			time="00:00.955"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer1' at 135;87.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='Self']//list[@automationid='MainListBox']/container/listitem[1]/container/container/container[@automationid='ImageGrid']/container"
+				fullname="Test00Repository.NewProtocolWizard.SomeContainer1"
+				id="73717a7e3fe74a369e28a95356124451"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.423"
+			timeRelativeToTestModuleStartTime="00:04.423"
+			timeWallClock="20:45:51"
+			time="00:04.423"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.EditButton' at 64;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element//container[@automationid='Self']/container/container/button[@automationid='EditButton']"
+				fullname="Test00Repository.NewProtocolWizard.EditButton"
+				id="b2c20882fd204653886a385137864d67"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.860"
+			timeRelativeToTestModuleStartTime="00:04.860"
+			timeWallClock="20:45:51"
+			time="00:04.860"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTImage1' at 23;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[3]//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTImage1"
+				id="28185dd029434be4bf84b8c4de571e82"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="88"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.524"
+			timeRelativeToTestModuleStartTime="00:06.524"
+			timeWallClock="20:45:53"
+			time="00:06.524"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementAddButtonTextBlock' at 45;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//button[@automationid='PART_ElementAddSampleButton']/?/?/text[@automationid='PART_ElementAddButtonTextBlock']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementAddButtonTextBlock"
+				id="0793d3f534e348e7b3bece3aef8e76ee"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.155"
+			timeRelativeToTestModuleStartTime="00:07.155"
+			timeWallClock="20:45:54"
+			time="00:07.155"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTImage2' at 16;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[2]//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTImage2"
+				id="ec156874cbc649208e1b0b4ec3960752"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="94"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.775"
+			timeRelativeToTestModuleStartTime="00:07.775"
+			timeWallClock="20:45:54"
+			time="00:07.775"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTImage3' at 13;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[2]/element[@automationid='PART_ElementRedoButton']/container/container/picture[@automationid='PART_Image']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTImage3"
+				id="c5dd7ae6dbdd42b3a1a1b6abdb551d2c"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="97"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.328"
+			timeRelativeToTestModuleStartTime="00:08.328"
+			timeWallClock="20:45:55"
+			time="00:08.328"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.Preview' at 34;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']//list[@automationid='PART_TextAreaLarge']/?/?/text[@caption='Preview']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.Preview"
+				id="f6a3724e8aa44bf3a24b0a824adf1668"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="100"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.041"
+			timeRelativeToTestModuleStartTime="00:09.041"
+			timeWallClock="20:45:56"
+			time="00:09.041"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'RackLayoutEditor.PARTElementRibbon.SomeElement' at 23;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']/?/?/text[@automationid='PART_ElementNumberOfSamplesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.SomeElement"
+				id="9e41fe88e44c4d3b92c2be6b145c4c64"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="103"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.596"
+			timeRelativeToTestModuleStartTime="00:09.596"
+			timeWallClock="20:45:56"
+			time="00:09.596"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'RackLayoutEditor.PARTElementRibbon.SomeElement' at 31;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']/?/?/text[@automationid='PART_ElementNumberOfSamplesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.SomeElement"
+				id="9e41fe88e44c4d3b92c2be6b145c4c64"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="107"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.157"
+			timeRelativeToTestModuleStartTime="00:10.157"
+			timeWallClock="20:45:57"
+			time="00:10.157"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'RackLayoutEditor.PARTElementRibbon.LargeImage' at 10;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']//picture[@automationid='LargeImage']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.LargeImage"
+				id="7aa0cda23b8f483e84347ebd8d578fbf"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="110"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.631"
+			timeRelativeToTestModuleStartTime="00:10.631"
+			timeWallClock="20:45:57"
+			time="00:10.631"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '50'.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="114"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.941"
+			timeRelativeToTestModuleStartTime="00:10.941"
+			timeWallClock="20:45:58"
+			time="00:10.941"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTImage' at 3;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTImage"
+				id="77885d59ef674357956bc62843aff533"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="117"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.535"
+			timeRelativeToTestModuleStartTime="00:11.535"
+			timeWallClock="20:45:58"
+			time="00:11.535"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTImage' at 3;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTImage"
+				id="77885d59ef674357956bc62843aff533"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="120"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.192"
+			timeRelativeToTestModuleStartTime="00:12.192"
+			timeWallClock="20:45:59"
+			time="00:12.192"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'RackLayoutEditor.PARTElementRibbon.SomeElement' at 16;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']/?/?/text[@automationid='PART_ElementNumberOfSamplesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.SomeElement"
+				id="9e41fe88e44c4d3b92c2be6b145c4c64"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="123"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.708"
+			timeRelativeToTestModuleStartTime="00:12.708"
+			timeWallClock="20:45:59"
+			time="00:12.708"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'RackLayoutEditor.PARTElementRibbon.SomeElement' at 24;-1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']/?/?/text[@automationid='PART_ElementNumberOfSamplesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.SomeElement"
+				id="9e41fe88e44c4d3b92c2be6b145c4c64"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="127"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.164"
+			timeRelativeToTestModuleStartTime="00:13.164"
+			timeWallClock="20:46:00"
+			time="00:13.164"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'RackLayoutEditor.PARTElementRibbon.PARTElementSequencingRibbonBar' at 62;48.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTElementSequencingRibbonBar"
+				id="404db940ea254895a589eb63530fe6e5"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="130"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.603"
+			timeRelativeToTestModuleStartTime="00:13.603"
+			timeWallClock="20:46:00"
+			time="00:13.603"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '-'.
+			</message>
+			<metainfo
+				itemindex="16"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="134"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.865"
+			timeRelativeToTestModuleStartTime="00:13.865"
+			timeWallClock="20:46:00"
+			time="00:13.865"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '0'.
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="137"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.122"
+			timeRelativeToTestModuleStartTime="00:14.122"
+			timeWallClock="20:46:01"
+			time="00:14.122"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTElementSequenceButton' at 6;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']/?/?/element[@automationid='PART_ElementSequenceButton']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTElementSequenceButton"
+				id="a338a57ff4f54e1fb52e5034c714d890"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="140"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.724"
+			timeRelativeToTestModuleStartTime="00:14.724"
+			timeWallClock="20:46:01"
+			time="00:14.724"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTElementSequenceButton' at 6;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']/?/?/element[@automationid='PART_ElementSequenceButton']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTElementSequenceButton"
+				id="a338a57ff4f54e1fb52e5034c714d890"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="143"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.350"
+			timeRelativeToTestModuleStartTime="00:15.350"
+			timeWallClock="20:46:02"
+			time="00:15.350"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'RackLayoutEditor.PARTElementRibbon.SomeElement' at 21;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']/?/?/text[@automationid='PART_ElementNumberOfSamplesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.SomeElement"
+				id="9e41fe88e44c4d3b92c2be6b145c4c64"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="146"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.834"
+			timeRelativeToTestModuleStartTime="00:15.834"
+			timeWallClock="20:46:02"
+			time="00:15.834"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'RackLayoutEditor.PARTElementRibbon.SomeElement' at 29;-5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']/?/?/text[@automationid='PART_ElementNumberOfSamplesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.SomeElement"
+				id="9e41fe88e44c4d3b92c2be6b145c4c64"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="150"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.284"
+			timeRelativeToTestModuleStartTime="00:16.284"
+			timeWallClock="20:46:03"
+			time="00:16.284"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '38'.
+			</message>
+			<metainfo
+				itemindex="22"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="153"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.543"
+			timeRelativeToTestModuleStartTime="00:16.543"
+			timeWallClock="20:46:03"
+			time="00:16.543"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTImage' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTImage"
+				id="77885d59ef674357956bc62843aff533"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="156"
+				itemindex="23"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.138"
+			timeRelativeToTestModuleStartTime="00:17.139"
+			timeWallClock="20:46:04"
+			time="00:17.138"
+			level="Info"
+			category="Mouse"
+			errimg=".\EditeSam_1eb5ab5d_009b2a52_trace.jpg"
+			errthumb=".\EditeSam_1eb5ab5d_009b2a52_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTImage' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTImage"
+				id="77885d59ef674357956bc62843aff533"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="159"
+				itemindex="24"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.713"
+			timeRelativeToTestModuleStartTime="00:17.713"
+			timeWallClock="20:46:04"
+			time="00:17.713"
+			level="Info"
+			category="Mouse"
+			errimg=".\EditeSam_1eb5ab5d_8babb547_trace.jpg"
+			errthumb=".\EditeSam_1eb5ab5d_8babb547_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.SomeContainer1.Arrow' at 0;0.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//combobox[@automationid='PART_ElementTypeComboBox']/?/?/checkbox[@automationid='ToggleButton']/?/?/element[@automationid='Arrow']"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.Arrow"
+				id="ba84b03d12b9464f9b5c82ff009db676"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="162"
+				itemindex="25"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.260"
+			timeRelativeToTestModuleStartTime="00:18.260"
+			timeWallClock="20:46:05"
+			time="00:18.260"
+			level="Error"
+			category="User"
+			errimg=".\EditeSam_1eb5ab5d_97a38c6b_trace.jpg"
+			errthumb=".\EditeSam_1eb5ab5d_97a38c6b_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

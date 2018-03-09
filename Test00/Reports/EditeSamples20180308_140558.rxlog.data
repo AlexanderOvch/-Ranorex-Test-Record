@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2f595a6e4136f640"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 14:06:07"
+		timestampiso="2018-03-08T12:06:07"
+		timeoutfactor="1"
+		module="EditeSamples">
+		<detail>
+			EditeSamples
+		</detail>
+		<errmsg>
+			Screenshot of item 'Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5' does not match the specified image.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.167"
+			timeRelativeToTestModuleStartTime="00:01.168"
+			timeWallClock="14:06:08"
+			time="00:01.167"
+			level="Info"
+			category="Validation"
+			errimg=".\EditeSam_c8643b4_4a4c28ee_trace.jpg"
+			errthumb=".\EditeSam_c8643b4_4a4c28ee_trace_thumb.jpg">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot4' with region {X=0,Y=0,Width=325,Height=25}) on item 'RackLayoutEditor.PARTRowsPresenter.Row5'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']//table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']/row[@index='5']"
+				fullname="Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5"
+				id="acb91eac19424a46a15c242059ea3aac"
+				timeout="65000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="82"
+				itemindex="51"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.047"
+			timeRelativeToTestModuleStartTime="00:04.048"
+			timeWallClock="14:06:11"
+			time="00:04.047"
+			level="Failure"
+			category="Validation"
+			errimg=".\EditeSam_c8643b4_af64d32a_trace.jpg"
+			errthumb=".\EditeSam_c8643b4_af64d32a_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5' does not match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="83"
+				loglvl="Failure"
+				id="acb91eac19424a46a15c242059ea3aac"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']//table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']/row[@index='5']"
+				fullname="Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5"
+				itemindex="51"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.098"
+			timeRelativeToTestModuleStartTime="00:04.099"
+			timeWallClock="14:06:11"
+			time="00:04.098"
+			level="Failure"
+			category="Expected image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\EditeSam_8511afa4_rxlog.jpg"><img src=".\EditeSam_8511afa4_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="51"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.120"
+			timeRelativeToTestModuleStartTime="00:04.121"
+			timeWallClock="14:06:11"
+			time="00:04.120"
+			level="Failure"
+			category="Searched image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\EditeSam_8511afa5_rxlog.jpg"><img src=".\EditeSam_8511afa5_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="51"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.139"
+			timeRelativeToTestModuleStartTime="00:04.140"
+			timeWallClock="14:06:11"
+			time="00:04.139"
+			level="Error"
+			category="Module"
+			errimg=".\EditeSam_c8643b4_66b925a1_trace.jpg"
+			errthumb=".\EditeSam_c8643b4_66b925a1_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5' does not match the specified image.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at Test00.EditeSamples.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="83"
+				loglvl="Error"
+				id="acb91eac19424a46a15c242059ea3aac"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']//table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']/row[@index='5']"
+				fullname="Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5"
+				itemindex="51"/>
+		</item>
+	</activity>
+</report>

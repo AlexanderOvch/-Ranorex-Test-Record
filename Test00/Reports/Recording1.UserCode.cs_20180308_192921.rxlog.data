@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d574c6d982fba62"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 19:29:30"
+		timestampiso="2018-03-08T17:29:30"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.530"
+			timeRelativeToTestModuleStartTime="00:01.531"
+			timeWallClock="19:29:32"
+			time="00:01.530"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe'
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.UserCode.cs"
+				codeline="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.057"
+			timeRelativeToTestModuleStartTime="00:02.058"
+			timeWallClock="19:29:32"
+			time="00:02.057"
+			level="Info"
+			category="mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysExplorer.Protocols' at center.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.608"
+			timeRelativeToTestModuleStartTime="00:06.609"
+			timeWallClock="19:29:37"
+			time="00:06.608"
+			level="Info"
+			category="Mouse">
+			<message>
+				Left Click button 'New' ar center.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\Recording1.UserCode.cs"
+				codeline="42"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

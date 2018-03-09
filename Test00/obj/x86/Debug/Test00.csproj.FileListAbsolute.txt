@@ -1,0 +1,9 @@
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\bin\Debug\Test00.rxtmg
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\bin\Debug\Test00.rxtst
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\bin\Debug\Test00.exe.config
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\bin\Debug\Test00.exe
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\bin\Debug\Test00.pdb
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\obj\x86\Debug\Test00.csprojResolveAssemblyReference.cache
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\obj\x86\Debug\Test00.exe
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\obj\x86\Debug\Test00.pdb
+C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\bin\Debug\RepositoryImages\Test00Repository3b2bcd6d.rximgres

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="53.57s"
+		durationms="53571"
+		type="root"
+		rid="215893805bab7dfc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="07.03.2018 21:12:50"
+		timestampiso="2018-03-07T19:12:50"
+		timeoutfactor="1"
+		module="SomeTextTestAndFinish">
+		<detail>
+			SomeTextTestAndFinish
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.069"
+			timeRelativeToTestModuleStartTime="00:01.070"
+			timeWallClock="21:12:51"
+			time="00:01.069"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ProtocolMyEndpointDualRacksOf15.SomeText2HashAtHash450' at 4;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^Protocol:\ My\ Endpoint\ Dua' and @processname='MyAssays.Desktop.Analysis']/container//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/container[@automationid='DashboardGrid']/container[@automationid='SectionPanel']/?/?/container[@automationid='Grid']/?/?/text[@caption='SomeText 2 # @#!450 ']"
+				fullname="Test00Repository.ProtocolMyEndpointDualRacksOf15.SomeText2HashAtHash450"
+				id="6a35e3a8bee943db88e287c6cfcbc9e6"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\SomeTextTestAndFinish.cs"
+				codeline="82"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.570"
+			timeRelativeToTestModuleStartTime="00:53.571"
+			timeWallClock="21:13:44"
+			time="00:53.570"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

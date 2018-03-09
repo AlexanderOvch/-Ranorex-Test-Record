@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="131534d2f146866"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Irina"
+		host="DESKTOP-T1D6GAR"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1366x768"
+		timestamp="08.03.2018 13:44:43"
+		timestampiso="2018-03-08T11:44:43"
+		timeoutfactor="1"
+		module="EditeSamples">
+		<detail>
+			EditeSamples
+		</detail>
+		<errmsg>
+			Screenshot of item 'Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5' does not match the specified image.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.139"
+			timeRelativeToTestModuleStartTime="00:01.140"
+			timeWallClock="13:44:45"
+			time="00:01.139"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.PARTElementRibbon.PARTImage' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementMainPanel']/container[@automationid='Grid']/list/list[@automationid='PART_ElementRibbon']/list[@automationid='PART_ElementSequencingRibbonBar']/container[@automationid='PART_ElementSequencingPanel']//picture[@automationid='PART_Image']"
+				fullname="Test00Repository.RackLayoutEditor.PARTElementRibbon.PARTImage"
+				id="77885d59ef674357956bc62843aff533"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="82"
+				itemindex="31"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.986"
+			timeRelativeToTestModuleStartTime="00:03.987"
+			timeWallClock="13:44:47"
+			time="00:03.986"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot2' with region {X=0,Y=0,Width=768,Height=142}) on item 'RackLayoutEditor.SomeContainer1.PARTElementPreviewImage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]/?/?/container[@automationid='Grid']/picture[@automationid='PART_ElementPreviewImage']"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.PARTElementPreviewImage"
+				id="f0a3dd535dae43cd857523a3345c9239"
+				timeout="75000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="85"
+				itemindex="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.656"
+			timeRelativeToTestModuleStartTime="00:04.657"
+			timeWallClock="13:44:48"
+			time="00:04.656"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'Test00Repository.RackLayoutEditor.SomeContainer1.PARTElementPreviewImage' does match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="86"
+				loglvl="Success"
+				id="f0a3dd535dae43cd857523a3345c9239"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]/?/?/container[@automationid='Grid']/picture[@automationid='PART_ElementPreviewImage']"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.PARTElementPreviewImage"
+				itemindex="32"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.667"
+			timeRelativeToTestModuleStartTime="00:04.668"
+			timeWallClock="13:44:48"
+			time="00:04.667"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.SomeContainer1.SomeContainer' at 9;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//combobox[@automationid='PART_ElementTypeComboBox']/?/?/checkbox[@automationid='ToggleButton']/container"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.SomeContainer"
+				id="18b89d77bd784613bdc7ecd8454be9a4"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="88"
+				itemindex="33"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.378"
+			timeRelativeToTestModuleStartTime="00:05.379"
+			timeWallClock="13:44:49"
+			time="00:05.378"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.SomeListItem1' at 91;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[2]"
+				fullname="Test00Repository.MyAssaysDesktopExplorer.SomeListItem1"
+				id="3c4de225f8e445fdb287ba6a10432640"
+				timeout="60000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="91"
+				itemindex="34"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.255"
+			timeRelativeToTestModuleStartTime="00:06.256"
+			timeWallClock="13:44:50"
+			time="00:06.255"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.SomeContainer1.SomeElement1' at 63;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//text[@automationid='PART_ElementReplicatesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.SomeElement1"
+				id="7eb36d351db8490c88efe3f20b091cae"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="94"
+				itemindex="35"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.959"
+			timeRelativeToTestModuleStartTime="00:06.960"
+			timeWallClock="13:44:50"
+			time="00:06.959"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.SomeContainer1.SomeElement1' at 63;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//text[@automationid='PART_ElementReplicatesTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.SomeElement1"
+				id="7eb36d351db8490c88efe3f20b091cae"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="97"
+				itemindex="36"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.621"
+			timeRelativeToTestModuleStartTime="00:07.622"
+			timeWallClock="13:44:51"
+			time="00:07.621"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.SomeContainer1.Upbutton1' at 7;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]/container[1]/container/container/element[@automationid='PART_ElementReplicatesUpDown']//button[@automationid='upbutton']"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.Upbutton1"
+				id="9a8097e181924d51a2641b22b0806098"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="100"
+				itemindex="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.230"
+			timeRelativeToTestModuleStartTime="00:08.231"
+			timeWallClock="13:44:52"
+			time="00:08.230"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.SomeContainer1.SomeElement' at 56;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//text[@automationid='PART_ElementGroupsTextBox']/element[2]"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.SomeElement"
+				id="46b59b79788e4b669776a6656f6b98ba"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="103"
+				itemindex="38"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.910"
+			timeRelativeToTestModuleStartTime="00:08.911"
+			timeWallClock="13:44:52"
+			time="00:08.910"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.SomeContainer1.Upbuttonpath1' at 6;0.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//element[@automationid='PART_ElementGroupUpDown']//button[@automationid='upbutton']/element[@automationid='upbuttonpath']"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.Upbuttonpath1"
+				id="039a031c21824d628388ab478434ed0e"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="106"
+				itemindex="39"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.669"
+			timeRelativeToTestModuleStartTime="00:09.670"
+			timeWallClock="13:44:53"
+			time="00:09.669"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RackLayoutEditor.SomeContainer1.PARTElementAddSampleButton' at 244;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]//button[@automationid='PART_ElementAddSampleButton']"
+				fullname="Test00Repository.RackLayoutEditor.SomeContainer1.PARTElementAddSampleButton"
+				id="9b3a9078acee4457927c26b23da0bd07"
+				timeout="90000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="109"
+				itemindex="40"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.286"
+			timeRelativeToTestModuleStartTime="00:10.287"
+			timeWallClock="13:44:54"
+			time="00:10.286"
+			level="Info"
+			category="Validation"
+			errimg=".\EditeSam_61be112a_cb28c7db_trace.jpg"
+			errthumb=".\EditeSam_61be112a_cb28c7db_trace_thumb.jpg">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot2' with region {X=0,Y=0,Width=342,Height=25}) on item 'RackLayoutEditor.PARTRowsPresenter.Row5'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']//table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']/row[@index='5']"
+				fullname="Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5"
+				id="acb91eac19424a46a15c242059ea3aac"
+				timeout="65000"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="112"
+				itemindex="41"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.949"
+			timeRelativeToTestModuleStartTime="00:10.950"
+			timeWallClock="13:44:54"
+			time="00:10.949"
+			level="Failure"
+			category="Validation"
+			errimg=".\EditeSam_61be112a_eb66c45a_trace.jpg"
+			errthumb=".\EditeSam_61be112a_eb66c45a_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5' does not match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="113"
+				loglvl="Failure"
+				id="acb91eac19424a46a15c242059ea3aac"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']//table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']/row[@index='5']"
+				fullname="Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5"
+				itemindex="41"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.017"
+			timeRelativeToTestModuleStartTime="00:11.018"
+			timeWallClock="13:44:54"
+			time="00:11.017"
+			level="Failure"
+			category="Expected image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\EditeSam_35b17d7a_rxlog.jpg"><img src=".\EditeSam_35b17d7a_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="113"
+				loglvl="Failure"
+				itemindex="41"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.054"
+			timeRelativeToTestModuleStartTime="00:11.055"
+			timeWallClock="13:44:54"
+			time="00:11.054"
+			level="Failure"
+			category="Searched image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\EditeSam_35b17d79_rxlog.jpg"><img src=".\EditeSam_35b17d79_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="113"
+				loglvl="Failure"
+				itemindex="41"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.072"
+			timeRelativeToTestModuleStartTime="00:11.073"
+			timeWallClock="13:44:54"
+			time="00:11.072"
+			level="Error"
+			category="Module"
+			errimg=".\EditeSam_61be112a_6af35385_trace.jpg"
+			errthumb=".\EditeSam_61be112a_6af35385_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5' does not match the specified image.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.CompareImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at Test00.EditeSamples.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs:line 113
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\EditeSamples.cs"
+				codeline="113"
+				loglvl="Error"
+				id="acb91eac19424a46a15c242059ea3aac"
+				path="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']//table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']/row[@index='5']"
+				fullname="Test00Repository.RackLayoutEditor.PARTRowsPresenter.Row5"
+				itemindex="41"/>
+		</item>
+	</activity>
+</report>
