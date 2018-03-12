@@ -4,8 +4,8 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Test00.rxtst" />
     <Element value="Test00Repository.rxrep" />
+    <Element value="Test00.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

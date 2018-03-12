@@ -1471,6 +1471,13 @@ voAgK+p/I0oK+/8A3yaBS1HJYdwyvv8A98mo5WwnykglgOh7nFS1Hcf6sf76f+hCjkC4eQf+e8n5
 L/hS+Q2c+fJ+S/4VFfk+Ug7NIoI9RnpTQix3UaooVQxwAMAfKKtK2wifym/5+JPyX/CipKKAP//Z
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
 		<mouseitem
 		enabled="True"
 		optional="False"

@@ -161,17 +161,9 @@ namespace Test00
             Validate.Attribute(repo.LayoutEditor.PARTElementPlateGrid.TEXT0Info, "Text", (string)null);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LayoutEditor.Close' at 22;10.", repo.LayoutEditor.CloseInfo, new RecordItemIndex(20));
-            repo.LayoutEditor.Close.Click("22;10");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 21;7.", repo.NewProtocolWizard.SomeContainer2.NextInfo, new RecordItemIndex(21));
-            repo.NewProtocolWizard.SomeContainer2.Next.Click("21;7");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.Close' at 25;10.", repo.NewProtocolWizard.CloseInfo, new RecordItemIndex(22));
-            repo.NewProtocolWizard.Close.Click("25;10");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'NewProtocolWizard'.", repo.NewProtocolWizard.SelfInfo, new RecordItemIndex(20));
+            Host.Local.CloseApplication(repo.NewProtocolWizard.Self, new Duration(0));
+            Delay.Milliseconds(0);
             
         }
 

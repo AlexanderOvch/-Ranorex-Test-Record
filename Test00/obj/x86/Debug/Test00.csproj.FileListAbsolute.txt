@@ -7,3 +7,12 @@ C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\obj\x86\De
 C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\obj\x86\Debug\Test00.exe
 C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\obj\x86\Debug\Test00.pdb
 C:\Users\Irina\Documents\Ranorex\RanorexStudio Projects\Test00\Test00\bin\Debug\RepositoryImages\Test00Repository3b2bcd6d.rximgres
+C:\Users\Recruiter\Downloads\-Ranorex-Test-Record-master\-Ranorex-Test-Record\Test00\bin\Debug\Test00.rxtmg
+C:\Users\Recruiter\Downloads\-Ranorex-Test-Record-master\-Ranorex-Test-Record\Test00\bin\Debug\Test00.rxtst
+C:\Users\Recruiter\Downloads\-Ranorex-Test-Record-master\-Ranorex-Test-Record\Test00\bin\Debug\RepositoryImages\Test00Repository3b2bcd6d.rximgres
+C:\Users\Recruiter\Downloads\-Ranorex-Test-Record-master\-Ranorex-Test-Record\Test00\bin\Debug\Test00.exe.config
+C:\Users\Recruiter\Downloads\-Ranorex-Test-Record-master\-Ranorex-Test-Record\Test00\bin\Debug\Test00.exe
+C:\Users\Recruiter\Downloads\-Ranorex-Test-Record-master\-Ranorex-Test-Record\Test00\bin\Debug\Test00.pdb
+C:\Users\Recruiter\Downloads\-Ranorex-Test-Record-master\-Ranorex-Test-Record\Test00\obj\x86\Debug\Test00.csprojResolveAssemblyReference.cache
+C:\Users\Recruiter\Downloads\-Ranorex-Test-Record-master\-Ranorex-Test-Record\Test00\obj\x86\Debug\Test00.exe
+C:\Users\Recruiter\Downloads\-Ranorex-Test-Record-master\-Ranorex-Test-Record\Test00\obj\x86\Debug\Test00.pdb
