@@ -1,6 +1,12 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="Test00Repository.rxrep" />
+  </Array>
   <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="files">
+    <Element value="Test00.rxtst" />
+    <Element value="Test00Repository.rxrep" />
+  </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />

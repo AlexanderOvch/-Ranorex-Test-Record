@@ -31,6 +31,325 @@ mode="Desktop">
 		enabled="True"
 		optional="False"
 		duration="500ms"
+		searchpropertyid="3f2fa1ed-cd3f-4372-ac8c-f2dabf198b28"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="687"
+		sy="385"
+		loc="3;3">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="96766b9c-f6f4-484f-89b6-0e52fa617229">
+				<element
+				role="unknown"
+				prefcap="unknown"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="684,382,6,6"
+				snapElem="">
+					<attribute
+					name="automationid"
+					type="System.String">
+						optionMark
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.FrameworkElement
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Shapes.Ellipse
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						optionMark
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						Ellipse
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Ellipse.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Ellipse.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Shapes.Ellipse.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="Fill"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.Fill property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Ellipse.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Ellipse.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Ellipse.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Ellipse.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Ellipse.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Ellipse.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Stretch"
+					type="System.Windows.Media.Stretch, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.Stretch property of type Stretch."
+					readonly="False"/>
+					<dynamicattribute
+					name="Stroke"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.Stroke property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeDashArray"
+					type="System.Windows.Media.DoubleCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.StrokeDashArray property of type DoubleCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeDashCap"
+					type="System.Windows.Media.PenLineCap, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.StrokeDashCap property of type PenLineCap."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeDashOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.StrokeDashOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeEndLineCap"
+					type="System.Windows.Media.PenLineCap, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.StrokeEndLineCap property of type PenLineCap."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeLineJoin"
+					type="System.Windows.Media.PenLineJoin, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.StrokeLineJoin property of type PenLineJoin."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeMiterLimit"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.StrokeMiterLimit property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeStartLineCap"
+					type="System.Windows.Media.PenLineCap, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.StrokeStartLineCap property of type PenLineCap."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeThickness"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.StrokeThickness property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Shapes.Ellipse.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Shapes.Ellipse.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Shapes.Ellipse.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Ellipse.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Ellipse.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Ellipse.Width property of type Double."
+					readonly="False"/>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/container/radiobutton[@automationid='RackRadioButton']/element[@automationid='optionMark']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="dedc3cdb-f084-4aeb-a0d8-2f8c01d933f8">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAkACQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKDyM
+GiqeoXxs2iVYTKZCQADj09vek3bVlRi5vliWkijQkoiqT1wMU6sj+23Ks32Ntq8Md/A+vFR3OrSy
+RLJC4t4uCX4Ytx05HHOfrinH33ZBUg6SvI26K5z7feMTtvyMHBBjTIP5UVp7KRj7WJ0dZGvYMlpu
+YquWyw7DjmtemSQxS482NHx03KDispK6OilNQldnKw20sNpdTRMJ4c+W+0EbQNrbsHqOx9Klikxb
+RHyyxSMqV7glMAjn3/I/Sty08qCS8HyRoJwB0A5RP61mCztpNSMdoZBEZGEnloR5Tgc8kYI46dj0
+6mri0r36mdTW3L0d0Zt/FPfTLKrSMoQKPOCqw/Liit46JExybq5/BlH9KKq9PzM7VPI06KKKzNCl
+caXBcySNM0jCTJ2ZG1WKhdwGOuB3ziotJZndpGYlpbeGR+eCx3AnH0UflRRQBpUUUUAf/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
 		searchpropertyid="b83256cc-78d0-4290-967b-f922a61c3bc7"
 		action="Down"
 		button="Left"

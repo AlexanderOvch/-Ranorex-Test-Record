@@ -570,6 +570,7 @@ namespace Test00
             RepoItemInfo _sometext2hashathash450Info;
             RepoItemInfo _somecheckbox1Info;
             RepoItemInfo _selecthowyoursamplesarearrangedusInfo;
+            RepoItemInfo _optionmarkInfo;
 
             /// <summary>
             /// Creates a new SomeContainer2  folder.
@@ -599,6 +600,7 @@ namespace Test00
                 _sometext2hashathash450Info = new RepoItemInfo(this, "SomeText2HashAtHash450", "element/container/container/container/text[@caption='SomeText 2 # @#!450']", 15000, null, "4516abf4-79d1-4d7b-8b84-9156b23b48d4");
                 _somecheckbox1Info = new RepoItemInfo(this, "SomeCheckBox1", "element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[4]", 15000, null, "13b67623-3373-437d-b591-0b0b5bfc3011");
                 _selecthowyoursamplesarearrangedusInfo = new RepoItemInfo(this, "SelectHowYourSamplesAreArrangedUs", "element/container/container/text[@caption~'^Select\\ how\\ your\\ samples\\ are\\ arranged\\.\\ Use\\ an\\ exist']", 15000, null, "00b3a4b5-f4ee-4316-ba5c-a06c89c2996f");
+                _optionmarkInfo = new RepoItemInfo(this, "OptionMark", "element/container/container/container[1]/container/radiobutton[@automationid='RackRadioButton']/element[@automationid='optionMark']", 30000, null, "96766b9c-f6f4-484f-89b6-0e52fa617229");
             }
 
             /// <summary>
@@ -1150,6 +1152,30 @@ namespace Test00
                 get
                 {
                     return _selecthowyoursamplesarearrangedusInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OptionMark item.
+            /// </summary>
+            [RepositoryItem("96766b9c-f6f4-484f-89b6-0e52fa617229")]
+            public virtual Ranorex.Unknown OptionMark
+            {
+                get
+                {
+                    return _optionmarkInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OptionMark item info.
+            /// </summary>
+            [RepositoryItemInfo("96766b9c-f6f4-484f-89b6-0e52fa617229")]
+            public virtual RepoItemInfo OptionMarkInfo
+            {
+                get
+                {
+                    return _optionmarkInfo;
                 }
             }
         }

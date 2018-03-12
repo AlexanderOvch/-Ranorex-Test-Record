@@ -79,24 +79,27 @@ namespace Test00
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'NewProtocolWizard.SomeContainer2.SomeElement' at 18;10.", repo.NewProtocolWizard.SomeContainer2.SomeElementInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer2.OptionMark' at 3;3.", repo.NewProtocolWizard.SomeContainer2.OptionMarkInfo, new RecordItemIndex(0));
+            repo.NewProtocolWizard.SomeContainer2.OptionMark.Click("3;3");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'NewProtocolWizard.SomeContainer2.SomeElement' at 18;10.", repo.NewProtocolWizard.SomeContainer2.SomeElementInfo, new RecordItemIndex(1));
             repo.NewProtocolWizard.SomeContainer2.SomeElement.MoveTo("18;10");
             Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'NewProtocolWizard.SomeContainer2.SomeElement' at 26;2.", repo.NewProtocolWizard.SomeContainer2.SomeElementInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'NewProtocolWizard.SomeContainer2.SomeElement' at 26;2.", repo.NewProtocolWizard.SomeContainer2.SomeElementInfo, new RecordItemIndex(2));
             repo.NewProtocolWizard.SomeContainer2.SomeElement.MoveTo("26;2");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'NewProtocolWizard.SomeContainer2.SomeContainer' at 174;9.", repo.NewProtocolWizard.SomeContainer2.SomeContainerInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'NewProtocolWizard.SomeContainer2.SomeContainer' at 174;9.", repo.NewProtocolWizard.SomeContainer2.SomeContainerInfo, new RecordItemIndex(3));
             repo.NewProtocolWizard.SomeContainer2.SomeContainer.MoveTo("174;9");
             Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '15'.", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '15'.", new RecordItemIndex(4));
             Keyboard.Press("15");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 27;3.", repo.NewProtocolWizard.SomeContainer2.NextInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 27;3.", repo.NewProtocolWizard.SomeContainer2.NextInfo, new RecordItemIndex(5));
             repo.NewProtocolWizard.SomeContainer2.Next.Click("27;3");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 34;9.", repo.NewProtocolWizard.SomeContainer2.NextInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 34;9.", repo.NewProtocolWizard.SomeContainer2.NextInfo, new RecordItemIndex(6));
             repo.NewProtocolWizard.SomeContainer2.Next.Click("34;9");
             
         }
