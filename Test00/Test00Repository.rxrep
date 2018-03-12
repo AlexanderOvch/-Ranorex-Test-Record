@@ -71,6 +71,16 @@ rxversion="6.1">
 			refimgid="3420d69d-47ad-4a20-a182-68198142185e">
 				/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container/container/container/container/container/container[2]/tabpagelist[@automationid='TabControl']/tabpage[@index='2']//container[@automationid='FileView']/container[@caption='']/element[@controlname='_child']/list[@accessiblerole='List']/listitem[@accessiblename~'^My\ Endpoint\ Dual\ \(Racks\ of\ 15\)\ Protocol\ \(1\)\.assay-']
 			</item>
+			<item
+			name="MyEndpointDualRacksOf15Protocol1"
+			id="cf9a04a9-37f6-454c-8876-17886caea4b7"
+			searchtimeout="15000ms"
+			capname="listitem"
+			refpath="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container/container/container/container/container/container[2]/tabpagelist/tabpage[@index='2']/container[1]/container/container/container/element[@controlname='_child']/list/listitem[@accessiblename='My Endpoint Dual (Racks of 15) Protocol (2)']"
+			addcaps="listitem,accessible"
+			refimgid="bd60d504-1ac5-4131-8d7b-865110c7389a">
+				/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container//tabpagelist[@automationid='TabControl']/tabpage[@index='2']//container[@automationid='FileView']/container[@caption='']/element[@controlname='_child']/list[@accessiblerole='List']/listitem[@accessiblename='My Endpoint Dual (Racks of 15) Protocol (2)']
+			</item>
 			<basepath>
 				/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']
 			</basepath>
@@ -563,7 +573,7 @@ j2QfJgAAAABJRU5ErkJggg==
 				/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element//container[@automationid='Self']/container/container/container/list[@automationid='CreateDropDownButton']/?/?/checkbox[@automationid='ToggleButton']/container
 			</item>
 			<item
-			name="Закрити"
+			name="Close"
 			id="f95872f2-ed6c-4bd1-93cd-8d462d37c4a8"
 			searchtimeout="15000ms"
 			capname="button"
@@ -2357,6 +2367,16 @@ YII=
 				addcaps="container,wpfelement"
 				refimgid="45e537c0-f240-48f3-8fbc-60f5f12e0a53">
 					/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']//table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']/row[@index='6']//checkbox[@automationid='ToggleButton']/container
+				</item>
+				<item
+				name="Cell2"
+				id="aa28635d-e61f-4cba-b0f6-b8616fb5624f"
+				searchtimeout="15000ms"
+				capname="cell"
+				refpath="/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/container/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']/container[3]/container[1]/table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']/row[@index='7']/cell[@text='2' and @columnindex='1']"
+				addcaps="cell,wpfelement"
+				refimgid="4d09c95a-1834-4868-b217-aaa0cf850384">
+					/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']//table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']/?/?/cell[@columnindex='1' and @rowindex='7']
 				</item>
 				<basepath>
 					/form[@wpfnative='True' and @title='Rack Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/element[@automationid='MainLayoutEditor']/container[@automationid='PART_ElementMainPanel']//table[@automationid='PART_GroupSequencDataGrid']/container[@automationid='PART_RowsPresenter']
@@ -5477,6 +5497,46 @@ sBF5BNOiRYsdcg/+P/6vrz/DXMJUAAAAAElFTkSuQmCC
 				refimgid="06070310-9d93-4ca1-a17d-787cc7d4ed28">
 					/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/?/?/text[@automationid='TEXT_23']
 				</item>
+				<item
+				name="TEXT15"
+				id="edb028c3-0641-4f7b-b1f6-f8ae3ce4b85b"
+				searchtimeout="15000ms"
+				capname="text"
+				refpath="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/element[33]/text[@automationid='TEXT_15']"
+				addcaps="text,wpfelement"
+				refimgid="f9049af7-9606-47a7-ab0c-cd77a3f807d0">
+					/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/?/?/text[@automationid='TEXT_15']
+				</item>
+				<item
+				name="TEXT20"
+				id="b6160fb2-7e02-4778-b1e0-357e1a601542"
+				searchtimeout="15000ms"
+				capname="text"
+				refpath="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/element[43]/text[@automationid='TEXT_20']"
+				addcaps="text,wpfelement"
+				refimgid="11e6b4ef-1b3e-449a-aa5e-bfaafcc650c5">
+					/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/?/?/text[@automationid='TEXT_20']
+				</item>
+				<item
+				name="TEXT13"
+				id="99e2477a-5470-4135-b39b-bd13ec4e1505"
+				searchtimeout="15000ms"
+				capname="text"
+				refpath="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/element[29]/text[@automationid='TEXT_13']"
+				addcaps="text,wpfelement"
+				refimgid="81d1ae15-c64d-420b-b102-8e8651c9453e">
+					/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/?/?/text[@automationid='TEXT_13']
+				</item>
+				<item
+				name="TEXT9"
+				id="2f087dfc-daea-4ebb-b836-7128a29bef64"
+				searchtimeout="15000ms"
+				capname="text"
+				refpath="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element/container/container[@automationid='PART_ElementPlateGrid']/element/container/element[21]/text[@automationid='TEXT_9']"
+				addcaps="text,wpfelement"
+				refimgid="aa3c3188-0033-4f9f-9ed4-360f9b0ec480">
+					/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']/element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/?/?/text[@automationid='TEXT_9']
+				</item>
 				<basepath>
 					/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='PART_ElementPlateGrid']
 				</basepath>
@@ -5573,6 +5633,16 @@ sBF5BNOiRYsdcg/+P/6vrz/DXMJUAAAAAElFTkSuQmCC
 				refimgid="5512f176-aeda-485b-ac9a-515bb4151412">
 					/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[3]/list/?/?/list[@automationid='ChildBlock']//list[@automationid='PART_Label']/?/?/text[@caption='and ']
 				</item>
+				<item
+				name="SomeContainer"
+				id="f687e1a2-d6f8-4ecd-9edc-e8043872f3b6"
+				searchtimeout="15000ms"
+				capname="container"
+				refpath="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element/container/container[3]/list/list/list[5]/element[@automationid='ElementFillToggleButton']/container/container[2]"
+				addcaps="container,wpfelement"
+				refimgid="32d26558-5a86-40a8-9227-9ed19d49adeb">
+					/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[3]/list/list/list[5]/element[@automationid='ElementFillToggleButton']/container/container[2]
+				</item>
 				<basepath>
 					/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[3]/list
 				</basepath>
@@ -5648,6 +5718,26 @@ Lhkn2cyiNp5B0qsrSvXUGA9YyTM8bGginCS84ieQZNBUt/gEE5BkvMP0R6bi7jJDcHhMksIkKUyS
 4geS0g4Dnmpkgd7/EwAAAABJRU5ErkJggg==
 				</image>
 				/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/?/?/container/element[@automationid='ElementBottomGroupUpdown']//text[@automationid='DoubleTextBox']//container[@automationid='Grid']/element[2]
+			</item>
+			<item
+			name="DoubleTextBox"
+			id="8818e7ab-d513-4233-8d20-5293ccdf38bb"
+			searchtimeout="15000ms"
+			capname="text"
+			refpath="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/container/container[1]/element[@automationid='ElementBottomGroupUpdown']/container/container/text[@automationid='DoubleTextBox']"
+			addcaps="text,wpfelement"
+			refimgid="dd397d1b-c121-40a0-ac9a-2eb14b574ed3">
+				/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/element[@automationid='MainLayoutEditor']/?/?/container/element[@automationid='ElementBottomGroupUpdown']//text[@automationid='DoubleTextBox']
+			</item>
+			<item
+			name="Close"
+			id="695199d4-1733-4aea-91e9-5979bc9b4df3"
+			searchtimeout="15000ms"
+			capname="button"
+			refpath="/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/titlebar/button[@accessiblename='Закрити']"
+			addcaps="button,accessible"
+			refimgid="69824332-3f5e-4d7c-a7e5-be040b4bce83">
+				/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']/?/?/button[@accessiblename='&#1047;&#1072;&#1082;&#1088;&#1080;&#1090;&#1080;']
 			</item>
 			<basepath>
 				/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']
@@ -5857,6 +5947,16 @@ Akz2G2c6jTIC/o/NAAAAAElFTkSuQmCC
 				refimgid="3c68a82d-fc1c-4869-b3c7-9b575c8d4ccc">
 					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]
 				</item>
+				<item
+				name="SelectedColorText"
+				id="c24b0081-c921-4d22-826a-bd34907e5f57"
+				searchtimeout="15000ms"
+				capname="text"
+				refpath="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list[@automationid='SampleTypesSimplifiedView']/container/container[10]/element/container/checkbox[@automationid='colorToggleButton']/container/container/text[@automationid='SelectedColorText']"
+				addcaps="text,wpfelement"
+				refimgid="25bb6b3a-4c09-4d24-9739-cbcfe9926b7e">
+					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']//text[@automationid='SelectedColorText']
+				</item>
 				<basepath>
 					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']
 				</basepath>
@@ -5880,6 +5980,39 @@ czwxci0u7pMNJLRV5Bb1NBVy3t5bPz2mMtFjJp3ICwWkszzO9vPIHuDlWIJkbbMtJCpysoU0vcfY
 WJwmbVjmcSpF11x7VK4kyCCiLGIgcctAgsvl2u5gN8h5HJlX7lcaId0cM5BiJQ2O41RK+Z9Qq9WJ
 pDAk1UqCLdFOeL3e/Ur5X0DT8Q16/YEOszmVZdn9DocjmQbipd+dYTiVjuQKGEb1C0FoeacxX0nE
 AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="FillSettings"
+		id="d91f651b-f37a-4c15-bfd1-4be952352d59"
+		searchtimeout="15000ms"
+		capname="form"
+		refpath="/form[@wpfnative='True' and @title='Fill Settings' and @processname='MyAssays.Desktop.Explorer']"
+		addcaps="form,nativewindow,wpfwin32element,wpfelement"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonOK"
+			id="865031b5-d33b-48bc-b00a-1f301567dc4b"
+			searchtimeout="15000ms"
+			capname="button"
+			refpath="/form[@wpfnative='True' and @title='Fill Settings' and @processname='MyAssays.Desktop.Explorer']/container/container[7]/button[@text='OK']"
+			addcaps="button,wpfelement"
+			refimgid="54ea7abd-aa14-493d-a632-91b09e576e20">
+				/form[@wpfnative='True' and @title='Fill Settings' and @processname='MyAssays.Desktop.Explorer']/container/container[7]/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@wpfnative='True' and @title='Fill Settings' and @processname='MyAssays.Desktop.Explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFNSURBVDhPjVO7SsRAFM0X+DnLBkEEtbLRUntt
+LPwAa1vtLcX9gcSNIIIPBF20UNZOZWEVEUULX0Xmcbx3JmEzk4l44JBwXzP33DuRj3aat9qJ2IpT
+MYgTkRvSP9vYV4TV0cr0GAV24lTib4oOxxZpFiY5kT0/eHxXYvtWOzZDinWKNJ28eq6gNbB5ozDR
+9f2iY5K5L9dhObMn8fQDHD9r9F40NvoKs/tujNHECjYyLp8qLB4p7NzR0QRFn08B9N/rrXAuX39Q
+NQ6/gOs3m1zF/UdAC8qN7JhGRj4pVODiNSSmyGsFTqhnLsBXr2L9SrnJTFPAa2HuQGKeOJlJLJEe
+a5cK2YPGFIlajbOkFnwRffL4Hr8R9BkRm8ZYZToMCViMkcFLEQoouXIW6L9cJEbTKpdcOPRs/ioz
+TJGGm0w7AgYeUxXclxX2P885in4BWb2WoprBrPoAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath/>

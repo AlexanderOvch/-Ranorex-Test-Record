@@ -73,74 +73,85 @@ namespace Test00
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.1")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 0;
-            Keyboard.DefaultKeyPressTime = 20;
-            Delay.SpeedFactor = 0.00;
+            Mouse.DefaultMoveTime = 300;
+            Keyboard.DefaultKeyPressTime = 100;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer2.Next' at 9;11.", repo.NewProtocolWizard.SomeContainer2.NextInfo, new RecordItemIndex(0));
             repo.NewProtocolWizard.SomeContainer2.Next.Click("9;11");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.SomeContainer2.AdvancedViewButton' at 40;9.", repo.NewProtocolWizard.SomeContainer2.AdvancedViewButtonInfo, new RecordItemIndex(1));
             repo.NewProtocolWizard.SomeContainer2.AdvancedViewButton.Click("40;9");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SampleTypesEditor.SomeContainer1.AddSampleType' at 83;5.", repo.SampleTypesEditor.SomeContainer1.AddSampleTypeInfo, new RecordItemIndex(2));
             repo.SampleTypesEditor.SomeContainer1.AddSampleType.Click("83;5");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'SampleTypesEditor.SomeContainer1.SomeElement' at 85;16.", repo.SampleTypesEditor.SomeContainer1.SomeElementInfo, new RecordItemIndex(3));
             repo.SampleTypesEditor.SomeContainer1.SomeElement.MoveTo("85;16");
             Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SampleTypesEditor.SomeContainer1.SomeElement' at 93;8.", repo.SampleTypesEditor.SomeContainer1.SomeElementInfo, new RecordItemIndex(4));
             repo.SampleTypesEditor.SomeContainer1.SomeElement.MoveTo("93;8");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'SampleTypesEditor.SomeContainer1.SomeContainer2' at 6;311.", repo.SampleTypesEditor.SomeContainer1.SomeContainer2Info, new RecordItemIndex(5));
             repo.SampleTypesEditor.SomeContainer1.SomeContainer2.MoveTo("6;311");
             Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LShiftKey down}T{LShiftKey up}est00'.", new RecordItemIndex(6));
             Keyboard.Press("{LShiftKey down}T{LShiftKey up}est00");
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SampleTypesEditor.SomeContainer1.SomeContainer1' at 146;9.", repo.SampleTypesEditor.SomeContainer1.SomeContainer1Info, new RecordItemIndex(7));
             repo.SampleTypesEditor.SomeContainer1.SomeContainer1.Click("146;9");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyAssaysDesktopExplorer.SomeContainer2' at 72;78.", repo.MyAssaysDesktopExplorer.SomeContainer2Info, new RecordItemIndex(8));
             repo.MyAssaysDesktopExplorer.SomeContainer2.Click("72;78");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.Arrow' at 0;0.", repo.SampleTypesEditor.SampleTypesSimplifiedView.ArrowInfo, new RecordItemIndex(9));
             repo.SampleTypesEditor.SampleTypesSimplifiedView.Arrow.Click("0;0");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyAssaysDesktopExplorer.SomeListItem2' at 47;16.", repo.MyAssaysDesktopExplorer.SomeListItem2Info, new RecordItemIndex(10));
             repo.MyAssaysDesktopExplorer.SomeListItem2.Click("47;16");
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Test00') on item 'SampleTypesEditor.SampleTypesSimplifiedView.Test00'.", repo.SampleTypesEditor.SampleTypesSimplifiedView.Test00Info, new RecordItemIndex(11));
             Validate.Attribute(repo.SampleTypesEditor.SampleTypesSimplifiedView.Test00Info, "Text", "Test00");
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='False') on item 'SampleTypesEditor.ToggleButton'.", repo.SampleTypesEditor.ToggleButtonInfo, new RecordItemIndex(12));
             Validate.Attribute(repo.SampleTypesEditor.ToggleButtonInfo, "Checked", "False");
+            Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=158,Height=26}) on item 'SampleTypesEditor.SampleTypesSimplifiedView.ColorToggleButton'.", repo.SampleTypesEditor.SampleTypesSimplifiedView.ColorToggleButtonInfo, new RecordItemIndex(13));
-            Validate.CompareImage(repo.SampleTypesEditor.SampleTypesSimplifiedView.ColorToggleButtonInfo, ColorToggleButton_Screenshot1, ColorToggleButton_Screenshot1_Options);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='DarkGreen') on item 'SampleTypesEditor.SampleTypesSimplifiedView.SelectedColorText'.", repo.SampleTypesEditor.SampleTypesSimplifiedView.SelectedColorTextInfo, new RecordItemIndex(13));
+            Validate.Attribute(repo.SampleTypesEditor.SampleTypesSimplifiedView.SelectedColorTextInfo, "Text", "DarkGreen");
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SampleTypesEditor.SampleTypesSimplifiedView.SomePicture' at 10;11.", repo.SampleTypesEditor.SampleTypesSimplifiedView.SomePictureInfo, new RecordItemIndex(14));
             repo.SampleTypesEditor.SampleTypesSimplifiedView.SomePicture.Click("10;11");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'SampleTypesEditor.SampleTypesSimplifiedView.SomeContainer1'.", repo.SampleTypesEditor.SampleTypesSimplifiedView.SomeContainer1Info, new RecordItemIndex(15));
             Validate.NotExists(repo.SampleTypesEditor.SampleTypesSimplifiedView.SomeContainer1Info);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ButtonOK' at 37;6.", repo.SampleTypesEditor.SomeContainer1.ButtonOKInfo, new RecordItemIndex(16));
             repo.SampleTypesEditor.SomeContainer1.ButtonOK.Click("37;6");
+            Delay.Milliseconds(200);
             
         }
 
 #region Image Feature Data
-        CompressedImage ColorToggleButton_Screenshot1
-        { get { return repo.SampleTypesEditor.SampleTypesSimplifiedView.ColorToggleButtonInfo.GetScreenshot1(new Rectangle(0, 0, 158, 26)); } }
-
-        Imaging.FindOptions ColorToggleButton_Screenshot1_Options
-        { get { return Imaging.FindOptions.Parse("1;None;0,0,158,26;True;10000000;0ms"); } }
-
 #endregion
     }
 #pragma warning restore 0436

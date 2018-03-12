@@ -124,8 +124,8 @@ namespace Test00
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Select how your samples are arranged. Use an existing layout or create a new one.') on item 'NewProtocolWizard.SomeContainer2.SelectHowYourSamplesAreArrangedUs'.", repo.NewProtocolWizard.SomeContainer2.SelectHowYourSamplesAreArrangedUsInfo, new RecordItemIndex(14));
             Validate.Attribute(repo.NewProtocolWizard.SomeContainer2.SelectHowYourSamplesAreArrangedUsInfo, "Text", "Select how your samples are arranged. Use an existing layout or create a new one.");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.Закрити' at 22;13.", repo.NewProtocolWizard.ЗакритиInfo, new RecordItemIndex(15));
-            repo.NewProtocolWizard.Закрити.Click("22;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.Close' at 22;13.", repo.NewProtocolWizard.CloseInfo, new RecordItemIndex(15));
+            repo.NewProtocolWizard.Close.Click("22;13");
             
         }
 

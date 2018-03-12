@@ -127,8 +127,9 @@ namespace Test00
             Keyboard.Press("2222222{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=43,Height=9}) on item 'NewProtocolWizard.MultipleContainerViewPanel.SomeElement1'.", repo.NewProtocolWizard.MultipleContainerViewPanel.SomeElement1Info, new RecordItemIndex(12));
-            Validate.CompareImage(repo.NewProtocolWizard.MultipleContainerViewPanel.SomeElement1Info, SomeElement1_Screenshot1, SomeElement1_Screenshot1_Options);
+            // ????
+            Report.Log(ReportLevel.Info, "Validation", "????\r\nValidating Exists on item 'NewProtocolWizard.MultipleContainerViewPanel.SomeElement1'.", repo.NewProtocolWizard.MultipleContainerViewPanel.SomeElement1Info, new RecordItemIndex(12));
+            Validate.Exists(repo.NewProtocolWizard.MultipleContainerViewPanel.SomeElement1Info);
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewProtocolWizard.MultipleContainerViewPanel.TextPad' at 14;-1.", repo.NewProtocolWizard.MultipleContainerViewPanel.TextPadInfo, new RecordItemIndex(13));
@@ -163,23 +164,21 @@ namespace Test00
             repo.NewProtocolWizard.SomeContainer2.Finish.Click("37;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyAssaysExplorer.MyEndpointDualRacksOf15Protocol' at 300;6.", repo.MyAssaysExplorer.MyEndpointDualRacksOf15ProtocolInfo, new RecordItemIndex(21));
-            repo.MyAssaysExplorer.MyEndpointDualRacksOf15Protocol.Click("300;6");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyAssaysExplorer.MyEndpointDualRacksOf15Protocol1' at 182;4.", repo.MyAssaysExplorer.MyEndpointDualRacksOf15Protocol1Info, new RecordItemIndex(21));
+            repo.MyAssaysExplorer.MyEndpointDualRacksOf15Protocol1.Click("182;4");
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}'.", new RecordItemIndex(22));
             Keyboard.Press("{Delete}");
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'MyAssaysExplorer.MyEndpointDualRacksOf15Protocol1'.", repo.MyAssaysExplorer.MyEndpointDualRacksOf15Protocol1Info, new RecordItemIndex(23));
+            Validate.NotExists(repo.MyAssaysExplorer.MyEndpointDualRacksOf15Protocol1Info);
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data
-        CompressedImage SomeElement1_Screenshot1
-        { get { return repo.NewProtocolWizard.MultipleContainerViewPanel.SomeElement1Info.GetScreenshot1(new Rectangle(0, 0, 43, 9)); } }
-
-        Imaging.FindOptions SomeElement1_Screenshot1_Options
-        { get { return Imaging.FindOptions.Parse("1;None;0,0,43,9;True;10000000;0ms"); } }
-
 #endregion
     }
 #pragma warning restore 0436

@@ -155,7 +155,7 @@ namespace Test00
             RepoItemInfo _partimageInfo;
             RepoItemInfo _ribbonInfo;
             RepoItemInfo _controllabelInfo;
-            RepoItemInfo _myendpointdualracksof15protocolInfo;
+            RepoItemInfo _myendpointdualracksof15protocol1Info;
 
             /// <summary>
             /// Creates a new MyAssaysExplorer  folder.
@@ -167,7 +167,7 @@ namespace Test00
                 _partimageInfo = new RepoItemInfo(this, "PARTImage", "container//list[@automationid='Ribbon']/list[1]/list[3]/element[@automationid='NewFileRibbonButton']//picture[@automationid='PART_Image']", 30000, null, "d0fd404e-105f-440b-bcdd-43de46924e16");
                 _ribbonInfo = new RepoItemInfo(this, "Ribbon", "container/container/container/container/container/list[@automationid='Ribbon']", 30000, null, "46394412-cefa-47da-a401-1652ee19c696");
                 _controllabelInfo = new RepoItemInfo(this, "ControlLabel", "container//element[@automationid='BackStageContent']/list/element[@automationid='ExitCommandButton']//text[@automationid='controlLabel']", 30000, null, "c68ece0d-5e0f-4e99-a84e-2504b1597495");
-                _myendpointdualracksof15protocolInfo = new RepoItemInfo(this, "MyEndpointDualRacksOf15Protocol", "container/container/container/container/container/container[2]/tabpagelist[@automationid='TabControl']/tabpage[@index='2']//container[@automationid='FileView']/container[@caption='']/element[@controlname='_child']/list[@accessiblerole='List']/listitem[@accessiblename~'^My\\ Endpoint\\ Dual\\ \\(Racks\\ of\\ 15\\)\\ Protocol\\ \\(1\\)\\.assay-']", 15000, null, "e6456767-a760-4023-9407-72c6da21f594");
+                _myendpointdualracksof15protocol1Info = new RepoItemInfo(this, "MyEndpointDualRacksOf15Protocol1", "container//tabpagelist[@automationid='TabControl']/tabpage[@index='2']//container[@automationid='FileView']/container[@caption='']/element[@controlname='_child']/list[@accessiblerole='List']/listitem[@accessiblename='My Endpoint Dual (Racks of 15) Protocol (2)']", 15000, null, "cf9a04a9-37f6-454c-8876-17886caea4b7");
             }
 
             /// <summary>
@@ -291,26 +291,26 @@ namespace Test00
             }
 
             /// <summary>
-            /// The MyEndpointDualRacksOf15Protocol item.
+            /// The MyEndpointDualRacksOf15Protocol1 item.
             /// </summary>
-            [RepositoryItem("e6456767-a760-4023-9407-72c6da21f594")]
-            public virtual Ranorex.ListItem MyEndpointDualRacksOf15Protocol
+            [RepositoryItem("cf9a04a9-37f6-454c-8876-17886caea4b7")]
+            public virtual Ranorex.ListItem MyEndpointDualRacksOf15Protocol1
             {
                 get
                 {
-                    return _myendpointdualracksof15protocolInfo.CreateAdapter<Ranorex.ListItem>(true);
+                    return _myendpointdualracksof15protocol1Info.CreateAdapter<Ranorex.ListItem>(true);
                 }
             }
 
             /// <summary>
-            /// The MyEndpointDualRacksOf15Protocol item info.
+            /// The MyEndpointDualRacksOf15Protocol1 item info.
             /// </summary>
-            [RepositoryItemInfo("e6456767-a760-4023-9407-72c6da21f594")]
-            public virtual RepoItemInfo MyEndpointDualRacksOf15ProtocolInfo
+            [RepositoryItemInfo("cf9a04a9-37f6-454c-8876-17886caea4b7")]
+            public virtual RepoItemInfo MyEndpointDualRacksOf15Protocol1Info
             {
                 get
                 {
-                    return _myendpointdualracksof15protocolInfo;
+                    return _myendpointdualracksof15protocol1Info;
                 }
             }
         }
@@ -327,7 +327,7 @@ namespace Test00
             RepoItemInfo _editbuttonInfo;
             RepoItemInfo _createmultiplelayoutbuttonInfo;
             RepoItemInfo _somecontainerInfo;
-            RepoItemInfo _закритиInfo;
+            RepoItemInfo _closeInfo;
 
             /// <summary>
             /// Creates a new NewProtocolWizard  folder.
@@ -341,7 +341,7 @@ namespace Test00
                 _editbuttonInfo = new RepoItemInfo(this, "EditButton", "element//container[@automationid='Self']/container/container/button[@automationid='EditButton']", 30000, null, "b2c20882-fd20-4653-886a-385137864d67");
                 _createmultiplelayoutbuttonInfo = new RepoItemInfo(this, "CreateMultipleLayoutButton", "element//container[@automationid='Self']/container/container/container/button[@automationid='CreateMultipleLayoutButton']", 30000, null, "0eade8c8-c6a8-424b-8849-8e742cd4e84d");
                 _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "element//container[@automationid='Self']/container/container/container/list[@automationid='CreateDropDownButton']/?/?/checkbox[@automationid='ToggleButton']/container", 15000, null, "6eced812-6928-4d23-8380-22ed0b9822b6");
-                _закритиInfo = new RepoItemInfo(this, "Закрити", "?/?/button[@accessiblename='Закрити']", 15000, null, "f95872f2-ed6c-4bd1-93cd-8d462d37c4a8");
+                _closeInfo = new RepoItemInfo(this, "Close", "?/?/button[@accessiblename='Закрити']", 15000, null, "f95872f2-ed6c-4bd1-93cd-8d462d37c4a8");
             }
 
             /// <summary>
@@ -500,26 +500,26 @@ namespace Test00
             }
 
             /// <summary>
-            /// The Закрити item.
+            /// The Close item.
             /// </summary>
             [RepositoryItem("f95872f2-ed6c-4bd1-93cd-8d462d37c4a8")]
-            public virtual Ranorex.Button Закрити
+            public virtual Ranorex.Button Close
             {
                 get
                 {
-                    return _закритиInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Закрити item info.
+            /// The Close item info.
             /// </summary>
             [RepositoryItemInfo("f95872f2-ed6c-4bd1-93cd-8d462d37c4a8")]
-            public virtual RepoItemInfo ЗакритиInfo
+            public virtual RepoItemInfo CloseInfo
             {
                 get
                 {
-                    return _закритиInfo;
+                    return _closeInfo;
                 }
             }
 
@@ -1165,7 +1165,7 @@ namespace Test00
             RepoItemInfo _clearbuttonInfo;
             RepoItemInfo _pastebuttonInfo;
             RepoItemInfo _someelementInfo;
-            SomeElement1InfoClass _someelement1Info;
+            RepoItemInfo _someelement1Info;
             RepoItemInfo _textpadInfo;
 
             /// <summary>
@@ -1179,43 +1179,8 @@ namespace Test00
                 _clearbuttonInfo = new RepoItemInfo(this, "ClearButton", "tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='ClearButton']", 30000, null, "1ddd3e15-c72b-4d3d-869a-27831a4989a9");
                 _pastebuttonInfo = new RepoItemInfo(this, "PasteButton", "tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='PasteButton']", 30000, null, "062465c5-e04a-454a-8aeb-5a19ef5012ac");
                 _someelementInfo = new RepoItemInfo(this, "SomeElement", "tabpage[@title='Pad']/text[@automationid='PadViewTextBox']/element[2]", 30000, null, "bd1e846b-c602-43b2-884c-9c2a0802fc3b");
-                _someelement1Info = new SomeElement1InfoClass(this);
+                _someelement1Info = new RepoItemInfo(this, "SomeElement1", "tabpage[@automationid='EndpointGridTab']/container[@automationid='Grid']/element[@automationid='GridViewControl']/element[@automationid='InnerFrame']/element[1]/element[2]", 30000, null, "1ea12385-7b48-4b8b-9bcd-03dc0217be07");
                 _textpadInfo = new RepoItemInfo(this, "TextPad", "tabpage[@title='Pad']/container[@automationid='PART_DockPanel']/text[@caption='Pad']", 30000, null, "3c533be7-d166-4310-a981-6e0bf90afe6e");
-            }
-
-            /// <summary>
-            /// The SomeElement1InfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("1ea12385-7b48-4b8b-9bcd-03dc0217be07")]
-            public class SomeElement1InfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// SomeElement1InfoClass class constructor.
-                /// </summary>
-                public SomeElement1InfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "SomeElement1", "tabpage[@automationid='EndpointGridTab']/container[@automationid='Grid']/element[@automationid='GridViewControl']/element[@automationid='InnerFrame']/element[1]/element[2]", 30000, null, "1ea12385-7b48-4b8b-9bcd-03dc0217be07")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("fc74d879-6757-425f-a96d-59c4d2b8f579")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("fc74d879-6757-425f-a96d-59c4d2b8f579");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("fc74d879-6757-425f-a96d-59c4d2b8f579")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("fc74d879-6757-425f-a96d-59c4d2b8f579", cropRect);
-                }
             }
 
             /// <summary>
@@ -1378,7 +1343,7 @@ namespace Test00
             /// The SomeElement1 item info.
             /// </summary>
             [RepositoryItemInfo("1ea12385-7b48-4b8b-9bcd-03dc0217be07")]
-            public virtual SomeElement1InfoClass SomeElement1Info
+            public virtual RepoItemInfo SomeElement1Info
             {
                 get
                 {
@@ -1954,7 +1919,7 @@ namespace Test00
             RepoItemInfo _upbutton1Info;
             RepoItemInfo _upbuttonpath1Info;
             RepoItemInfo _splittogglebuttonInfo;
-            PARTElementPreviewImageInfoClass _partelementpreviewimageInfo;
+            RepoItemInfo _partelementpreviewimageInfo;
             RepoItemInfo _somecontainer1Info;
 
             /// <summary>
@@ -1971,64 +1936,8 @@ namespace Test00
                 _upbutton1Info = new RepoItemInfo(this, "Upbutton1", "container[1]/container/container/element[@automationid='PART_ElementReplicatesUpDown']//button[@automationid='upbutton']", 30000, null, "9a8097e1-8192-4d51-a264-1b22b0806098");
                 _upbuttonpath1Info = new RepoItemInfo(this, "Upbuttonpath1", ".//element[@automationid='PART_ElementGroupUpDown']//button[@automationid='upbutton']/element[@automationid='upbuttonpath']", 30000, null, "039a031c-2182-4d62-8388-ab478434ed0e");
                 _splittogglebuttonInfo = new RepoItemInfo(this, "SplitToggleButton", ".//list[@automationid='PART_ElementAddSampleDropDownButton']//checkbox[@automationid='SplitToggleButton']", 30000, null, "6d299ec0-b4e2-40fa-9a9a-4cd39b7fbd44");
-                _partelementpreviewimageInfo = new PARTElementPreviewImageInfoClass(this);
+                _partelementpreviewimageInfo = new RepoItemInfo(this, "PARTElementPreviewImage", "?/?/container[@automationid='Grid']/picture[@automationid='PART_ElementPreviewImage']", 15000, null, "f0a3dd53-5dae-43cd-8575-23a3345c9239");
                 _somecontainer1Info = new RepoItemInfo(this, "SomeContainer1", ".//list[@automationid='PART_ElementAddSampleDropDownButton']//button[@automationid='MainButton']/container", 15000, null, "390e3368-3bfe-483e-a8ad-dc548d3cf7f7");
-            }
-
-            /// <summary>
-            /// The PARTElementPreviewImageInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("f0a3dd53-5dae-43cd-8575-23a3345c9239")]
-            public class PARTElementPreviewImageInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// PARTElementPreviewImageInfoClass class constructor.
-                /// </summary>
-                public PARTElementPreviewImageInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "PARTElementPreviewImage", "?/?/container[@automationid='Grid']/picture[@automationid='PART_ElementPreviewImage']", 15000, null, "f0a3dd53-5dae-43cd-8575-23a3345c9239")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot2 item image.
-                /// </summary>
-                /// <returns>The Screenshot2 image.</returns>
-                [RepositoryImage("0b959298-6e8f-4af0-bb72-e148d303cc42")]
-                public CompressedImage GetScreenshot2()
-                {
-                    return GetImage("0b959298-6e8f-4af0-bb72-e148d303cc42");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot2 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("0b959298-6e8f-4af0-bb72-e148d303cc42")]
-                public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("0b959298-6e8f-4af0-bb72-e148d303cc42", cropRect);
-                }
-
-                /// <summary>
-                /// Gets the Screenshot3 item image.
-                /// </summary>
-                /// <returns>The Screenshot3 image.</returns>
-                [RepositoryImage("a317b70c-2e73-4876-9b48-6621660e59d9")]
-                public CompressedImage GetScreenshot3()
-                {
-                    return GetImage("a317b70c-2e73-4876-9b48-6621660e59d9");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot3 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("a317b70c-2e73-4876-9b48-6621660e59d9")]
-                public CompressedImage GetScreenshot3(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("a317b70c-2e73-4876-9b48-6621660e59d9", cropRect);
-                }
             }
 
             /// <summary>
@@ -2263,7 +2172,7 @@ namespace Test00
             /// The PARTElementPreviewImage item info.
             /// </summary>
             [RepositoryItemInfo("f0a3dd53-5dae-43cd-8575-23a3345c9239")]
-            public virtual PARTElementPreviewImageInfoClass PARTElementPreviewImageInfo
+            public virtual RepoItemInfo PARTElementPreviewImageInfo
             {
                 get
                 {
@@ -2310,9 +2219,9 @@ namespace Test00
             RepoItemInfo _row0Info;
             Row5InfoClass _row5Info;
             Row6InfoClass _row6Info;
-            Row7InfoClass _row7Info;
             RepoItemInfo _cell23Info;
             RepoItemInfo _somecontainerInfo;
+            RepoItemInfo _cell2Info;
 
             /// <summary>
             /// Creates a new PARTRowsPresenter  folder.
@@ -2328,9 +2237,9 @@ namespace Test00
                 _row0Info = new RepoItemInfo(this, "Row0", "row[@index='0']", 5000, null, "6dea3bb6-c8c2-4f3e-bb35-9f7fafbda787");
                 _row5Info = new Row5InfoClass(this);
                 _row6Info = new Row6InfoClass(this);
-                _row7Info = new Row7InfoClass(this);
                 _cell23Info = new RepoItemInfo(this, "Cell23", "?/?/cell[@columnindex='1' and @rowindex='6']", 15000, null, "c64982b5-02e7-4edc-ba51-b07eac220412");
                 _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "row[@index='6']//checkbox[@automationid='ToggleButton']/container", 15000, null, "566a03a6-9f54-4e83-82ca-7328f6fbd346");
+                _cell2Info = new RepoItemInfo(this, "Cell2", "?/?/cell[@columnindex='1' and @rowindex='7']", 15000, null, "aa28635d-e61f-4cba-b0f6-b8616fb5624f");
             }
 
             /// <summary>
@@ -2438,48 +2347,6 @@ namespace Test00
                 { }
 
                 /// <summary>
-                /// Gets the Screenshot3 item image.
-                /// </summary>
-                /// <returns>The Screenshot3 image.</returns>
-                [RepositoryImage("8d5adf71-9367-420e-89bb-d6b3efb02cee")]
-                public CompressedImage GetScreenshot3()
-                {
-                    return GetImage("8d5adf71-9367-420e-89bb-d6b3efb02cee");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot3 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("8d5adf71-9367-420e-89bb-d6b3efb02cee")]
-                public CompressedImage GetScreenshot3(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("8d5adf71-9367-420e-89bb-d6b3efb02cee", cropRect);
-                }
-
-                /// <summary>
-                /// Gets the Screenshot4 item image.
-                /// </summary>
-                /// <returns>The Screenshot4 image.</returns>
-                [RepositoryImage("65063a9e-85b1-4e00-8ea1-e5a6c38bf60f")]
-                public CompressedImage GetScreenshot4()
-                {
-                    return GetImage("65063a9e-85b1-4e00-8ea1-e5a6c38bf60f");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot4 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("65063a9e-85b1-4e00-8ea1-e5a6c38bf60f")]
-                public CompressedImage GetScreenshot4(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("65063a9e-85b1-4e00-8ea1-e5a6c38bf60f", cropRect);
-                }
-
-                /// <summary>
                 /// Gets the Screenshot6 item image.
                 /// </summary>
                 /// <returns>The Screenshot6 image.</returns>
@@ -2498,41 +2365,6 @@ namespace Test00
                 public CompressedImage GetScreenshot6(System.Drawing.Rectangle cropRect)
                 {
                     return GetImage("496b62d9-e1c8-4556-b5f3-f9c46ba47e49", cropRect);
-                }
-            }
-
-            /// <summary>
-            /// The Row7InfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("ef34df14-e400-4490-977b-0bc64aa7adea")]
-            public class Row7InfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// Row7InfoClass class constructor.
-                /// </summary>
-                public Row7InfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "Row7", "row[@index='7']", 15000, null, "ef34df14-e400-4490-977b-0bc64aa7adea")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot3 item image.
-                /// </summary>
-                /// <returns>The Screenshot3 image.</returns>
-                [RepositoryImage("238f44ad-54b3-4c17-9374-7d5b34f7a66f")]
-                public CompressedImage GetScreenshot3()
-                {
-                    return GetImage("238f44ad-54b3-4c17-9374-7d5b34f7a66f");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot3 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("238f44ad-54b3-4c17-9374-7d5b34f7a66f")]
-                public CompressedImage GetScreenshot3(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("238f44ad-54b3-4c17-9374-7d5b34f7a66f", cropRect);
                 }
             }
 
@@ -2753,30 +2585,6 @@ namespace Test00
             }
 
             /// <summary>
-            /// The Row7 item.
-            /// </summary>
-            [RepositoryItem("ef34df14-e400-4490-977b-0bc64aa7adea")]
-            public virtual Ranorex.Row Row7
-            {
-                get
-                {
-                    return _row7Info.CreateAdapter<Ranorex.Row>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Row7 item info.
-            /// </summary>
-            [RepositoryItemInfo("ef34df14-e400-4490-977b-0bc64aa7adea")]
-            public virtual Row7InfoClass Row7Info
-            {
-                get
-                {
-                    return _row7Info;
-                }
-            }
-
-            /// <summary>
             /// The Cell23 item.
             /// </summary>
             [RepositoryItem("c64982b5-02e7-4edc-ba51-b07eac220412")]
@@ -2821,6 +2629,30 @@ namespace Test00
                 get
                 {
                     return _somecontainerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Cell2 item.
+            /// </summary>
+            [RepositoryItem("aa28635d-e61f-4cba-b0f6-b8616fb5624f")]
+            public virtual Ranorex.Cell Cell2
+            {
+                get
+                {
+                    return _cell2Info.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Cell2 item info.
+            /// </summary>
+            [RepositoryItemInfo("aa28635d-e61f-4cba-b0f6-b8616fb5624f")]
+            public virtual RepoItemInfo Cell2Info
+            {
+                get
+                {
+                    return _cell2Info;
                 }
             }
         }
@@ -3132,10 +2964,10 @@ namespace Test00
         public partial class LayoutEditorAppFolder : RepoGenBaseFolder
         {
             Test00RepositoryFolders.PARTElementPlateGridFolder _partelementplategrid;
-            Test00RepositoryFolders.SomeContainer2Folder1 _somecontainer2;
             Test00RepositoryFolders.SomeListFolder _somelist;
             Test00RepositoryFolders.ElementPlateRibbonBarFolder _elementplateribbonbar;
-            SomeElementInfoClass _someelementInfo;
+            RepoItemInfo _doubletextboxInfo;
+            RepoItemInfo _closeInfo;
 
             /// <summary>
             /// Creates a new LayoutEditor  folder.
@@ -3144,45 +2976,10 @@ namespace Test00
                     base("LayoutEditor", "/form[@wpfnative='True' and @title='Layout Editor' and @processname='MyAssays.Desktop.Explorer']", parentFolder, 15000, null, true, "cdd94452-3d92-47e0-825b-c69025230eff", "")
             {
                 _partelementplategrid = new Test00RepositoryFolders.PARTElementPlateGridFolder(this);
-                _somecontainer2 = new Test00RepositoryFolders.SomeContainer2Folder1(this);
                 _somelist = new Test00RepositoryFolders.SomeListFolder(this);
                 _elementplateribbonbar = new Test00RepositoryFolders.ElementPlateRibbonBarFolder(this);
-                _someelementInfo = new SomeElementInfoClass(this);
-            }
-
-            /// <summary>
-            /// The SomeElementInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("2b5aa149-52d3-415f-9d75-e11b566652ab")]
-            public class SomeElementInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// SomeElementInfoClass class constructor.
-                /// </summary>
-                public SomeElementInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "SomeElement", "element[@automationid='MainLayoutEditor']/?/?/container/element[@automationid='ElementBottomGroupUpdown']//text[@automationid='DoubleTextBox']//container[@automationid='Grid']/element[2]", 15000, null, "2b5aa149-52d3-415f-9d75-e11b566652ab")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("249cf51b-b779-4d0c-b302-81fb18aca074")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("249cf51b-b779-4d0c-b302-81fb18aca074");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("249cf51b-b779-4d0c-b302-81fb18aca074")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("249cf51b-b779-4d0c-b302-81fb18aca074", cropRect);
-                }
+                _doubletextboxInfo = new RepoItemInfo(this, "DoubleTextBox", "element[@automationid='MainLayoutEditor']/?/?/container/element[@automationid='ElementBottomGroupUpdown']//text[@automationid='DoubleTextBox']", 15000, null, "8818e7ab-d513-4233-8d20-5293ccdf38bb");
+                _closeInfo = new RepoItemInfo(this, "Close", "?/?/button[@accessiblename='Закрити']", 15000, null, "695199d4-1733-4aea-91e9-5979bc9b4df3");
             }
 
             /// <summary>
@@ -3210,26 +3007,50 @@ namespace Test00
             }
 
             /// <summary>
-            /// The SomeElement item.
+            /// The DoubleTextBox item.
             /// </summary>
-            [RepositoryItem("2b5aa149-52d3-415f-9d75-e11b566652ab")]
-            public virtual Ranorex.Unknown SomeElement
+            [RepositoryItem("8818e7ab-d513-4233-8d20-5293ccdf38bb")]
+            public virtual Ranorex.Text DoubleTextBox
             {
                 get
                 {
-                    return _someelementInfo.CreateAdapter<Ranorex.Unknown>(true);
+                    return _doubletextboxInfo.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The SomeElement item info.
+            /// The DoubleTextBox item info.
             /// </summary>
-            [RepositoryItemInfo("2b5aa149-52d3-415f-9d75-e11b566652ab")]
-            public virtual SomeElementInfoClass SomeElementInfo
+            [RepositoryItemInfo("8818e7ab-d513-4233-8d20-5293ccdf38bb")]
+            public virtual RepoItemInfo DoubleTextBoxInfo
             {
                 get
                 {
-                    return _someelementInfo;
+                    return _doubletextboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("695199d4-1733-4aea-91e9-5979bc9b4df3")]
+            public virtual Ranorex.Button Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("695199d4-1733-4aea-91e9-5979bc9b4df3")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
                 }
             }
 
@@ -3240,15 +3061,6 @@ namespace Test00
             public virtual Test00RepositoryFolders.PARTElementPlateGridFolder PARTElementPlateGrid
             {
                 get { return _partelementplategrid; }
-            }
-
-            /// <summary>
-            /// The SomeContainer2 folder.
-            /// </summary>
-            [RepositoryFolder("6ea77e6b-be71-4296-8b77-7f632990e45c")]
-            public virtual Test00RepositoryFolders.SomeContainer2Folder1 SomeContainer2
-            {
-                get { return _somecontainer2; }
             }
 
             /// <summary>
@@ -3277,15 +3089,11 @@ namespace Test00
         public partial class PARTElementPlateGridFolder : RepoGenBaseFolder
         {
             RepoItemInfo _mainrectInfo;
-            LAYOUT23InfoClass _layout23Info;
-            RepoItemInfo _layout20Info;
-            RepoItemInfo _layout21Info;
-            RepoItemInfo _layout22Info;
             RootCanvasInfoClass _rootcanvasInfo;
             RepoItemInfo _layout0Info;
             PARTElementPlateListViewInfoClass _partelementplatelistviewInfo;
             RepoItemInfo _text0Info;
-            RepoItemInfo _text23Info;
+            RepoItemInfo _text15Info;
 
             /// <summary>
             /// Creates a new PARTElementPlateGrid  folder.
@@ -3294,50 +3102,11 @@ namespace Test00
                     base("PARTElementPlateGrid", ".//container[@automationid='PART_ElementPlateGrid']", parentFolder, 15000, null, false, "7b8cf337-c8ee-4575-8c22-4e956fa2f363", "")
             {
                 _mainrectInfo = new RepoItemInfo(this, "MAINRECT", "element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='MAIN_RECT']", 15000, null, "8923d046-3a08-471d-b195-42f4c8e2c7c0");
-                _layout23Info = new LAYOUT23InfoClass(this);
-                _layout20Info = new RepoItemInfo(this, "LAYOUT20", "element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_20']", 15000, null, "e4c394cd-92aa-420c-974f-df2cb97855bf");
-                _layout21Info = new RepoItemInfo(this, "LAYOUT21", "element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_21']", 15000, null, "62a038be-83c5-4074-8cc1-49ffe08d025e");
-                _layout22Info = new RepoItemInfo(this, "LAYOUT22", "element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_22']", 15000, null, "d724102b-049a-4c15-8954-7104f2427d13");
                 _rootcanvasInfo = new RootCanvasInfoClass(this);
                 _layout0Info = new RepoItemInfo(this, "LAYOUT0", "element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_0']", 15000, null, "041114e5-d0e6-4eed-adff-7ef493f0c247");
                 _partelementplatelistviewInfo = new PARTElementPlateListViewInfoClass(this);
                 _text0Info = new RepoItemInfo(this, "TEXT0", "element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/?/?/text[@automationid='TEXT_0']", 15000, null, "46f45220-96f7-49f1-94a4-026f356b7383");
-                _text23Info = new RepoItemInfo(this, "TEXT23", "element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/?/?/text[@automationid='TEXT_23']", 15000, null, "25cb3c08-100e-48a6-9f2e-b8d639a1eca4");
-            }
-
-            /// <summary>
-            /// The LAYOUT23InfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("efae53f4-d017-4e33-be00-38d28fa93622")]
-            public class LAYOUT23InfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// LAYOUT23InfoClass class constructor.
-                /// </summary>
-                public LAYOUT23InfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "LAYOUT23", "element[@automationid='PART_ElementLayoutGrid']/?/?/element[@automationid='LAYOUT_23']", 15000, null, "efae53f4-d017-4e33-be00-38d28fa93622")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot2 item image.
-                /// </summary>
-                /// <returns>The Screenshot2 image.</returns>
-                [RepositoryImage("64ac46aa-ff21-4691-b095-2cafc0340c4c")]
-                public CompressedImage GetScreenshot2()
-                {
-                    return GetImage("64ac46aa-ff21-4691-b095-2cafc0340c4c");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot2 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("64ac46aa-ff21-4691-b095-2cafc0340c4c")]
-                public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("64ac46aa-ff21-4691-b095-2cafc0340c4c", cropRect);
-                }
+                _text15Info = new RepoItemInfo(this, "TEXT15", "element[@automationid='PART_ElementLayoutGrid']/container[@automationid='RootCanvas']/?/?/text[@automationid='TEXT_15']", 15000, null, "edb028c3-0641-4f7b-b1f6-f8ae3ce4b85b");
             }
 
             /// <summary>
@@ -3480,102 +3249,6 @@ namespace Test00
             }
 
             /// <summary>
-            /// The LAYOUT23 item.
-            /// </summary>
-            [RepositoryItem("efae53f4-d017-4e33-be00-38d28fa93622")]
-            public virtual Ranorex.Unknown LAYOUT23
-            {
-                get
-                {
-                    return _layout23Info.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The LAYOUT23 item info.
-            /// </summary>
-            [RepositoryItemInfo("efae53f4-d017-4e33-be00-38d28fa93622")]
-            public virtual LAYOUT23InfoClass LAYOUT23Info
-            {
-                get
-                {
-                    return _layout23Info;
-                }
-            }
-
-            /// <summary>
-            /// The LAYOUT20 item.
-            /// </summary>
-            [RepositoryItem("e4c394cd-92aa-420c-974f-df2cb97855bf")]
-            public virtual Ranorex.Unknown LAYOUT20
-            {
-                get
-                {
-                    return _layout20Info.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The LAYOUT20 item info.
-            /// </summary>
-            [RepositoryItemInfo("e4c394cd-92aa-420c-974f-df2cb97855bf")]
-            public virtual RepoItemInfo LAYOUT20Info
-            {
-                get
-                {
-                    return _layout20Info;
-                }
-            }
-
-            /// <summary>
-            /// The LAYOUT21 item.
-            /// </summary>
-            [RepositoryItem("62a038be-83c5-4074-8cc1-49ffe08d025e")]
-            public virtual Ranorex.Unknown LAYOUT21
-            {
-                get
-                {
-                    return _layout21Info.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The LAYOUT21 item info.
-            /// </summary>
-            [RepositoryItemInfo("62a038be-83c5-4074-8cc1-49ffe08d025e")]
-            public virtual RepoItemInfo LAYOUT21Info
-            {
-                get
-                {
-                    return _layout21Info;
-                }
-            }
-
-            /// <summary>
-            /// The LAYOUT22 item.
-            /// </summary>
-            [RepositoryItem("d724102b-049a-4c15-8954-7104f2427d13")]
-            public virtual Ranorex.Unknown LAYOUT22
-            {
-                get
-                {
-                    return _layout22Info.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The LAYOUT22 item info.
-            /// </summary>
-            [RepositoryItemInfo("d724102b-049a-4c15-8954-7104f2427d13")]
-            public virtual RepoItemInfo LAYOUT22Info
-            {
-                get
-                {
-                    return _layout22Info;
-                }
-            }
-
-            /// <summary>
             /// The RootCanvas item.
             /// </summary>
             [RepositoryItem("99749271-8bc0-4786-bffd-4263d230ddd7")]
@@ -3672,144 +3345,26 @@ namespace Test00
             }
 
             /// <summary>
-            /// The TEXT23 item.
+            /// The TEXT15 item.
             /// </summary>
-            [RepositoryItem("25cb3c08-100e-48a6-9f2e-b8d639a1eca4")]
-            public virtual Ranorex.Text TEXT23
+            [RepositoryItem("edb028c3-0641-4f7b-b1f6-f8ae3ce4b85b")]
+            public virtual Ranorex.Text TEXT15
             {
                 get
                 {
-                    return _text23Info.CreateAdapter<Ranorex.Text>(true);
+                    return _text15Info.CreateAdapter<Ranorex.Text>(true);
                 }
             }
 
             /// <summary>
-            /// The TEXT23 item info.
+            /// The TEXT15 item info.
             /// </summary>
-            [RepositoryItemInfo("25cb3c08-100e-48a6-9f2e-b8d639a1eca4")]
-            public virtual RepoItemInfo TEXT23Info
+            [RepositoryItemInfo("edb028c3-0641-4f7b-b1f6-f8ae3ce4b85b")]
+            public virtual RepoItemInfo TEXT15Info
             {
                 get
                 {
-                    return _text23Info;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The SomeContainer2Folder1 folder.
-        /// </summary>
-        [RepositoryFolder("6ea77e6b-be71-4296-8b77-7f632990e45c")]
-        public partial class SomeContainer2Folder1 : RepoGenBaseFolder
-        {
-            RepoItemInfo _unknownInfo;
-            RepoItemInfo _someelement1Info;
-            RepoItemInfo _controlInfo;
-
-            /// <summary>
-            /// Creates a new SomeContainer2  folder.
-            /// </summary>
-            public SomeContainer2Folder1(RepoGenBaseFolder parentFolder) :
-                    base("SomeContainer2", "element[@automationid='MainLayoutEditor']//list[@automationid='ElementBottomSampleTypeListView']/container", parentFolder, 15000, null, false, "6ea77e6b-be71-4296-8b77-7f632990e45c", "")
-            {
-                _unknownInfo = new RepoItemInfo(this, "Unknown", "listitem[2]/?/?/text[@caption='Unknown']", 15000, null, "7db455ef-60bc-4a6b-923b-cc2cd3a15e72");
-                _someelement1Info = new RepoItemInfo(this, "SomeElement1", "listitem[3]/?/?/element", 15000, null, "1e66eed8-75c7-4f82-ad5f-f0f5058d88d7");
-                _controlInfo = new RepoItemInfo(this, "Control", "listitem[4]/?/?/text[@caption='Control']", 15000, null, "cf0e2917-7a19-41c6-b295-59b3a356e47a");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("6ea77e6b-be71-4296-8b77-7f632990e45c")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("6ea77e6b-be71-4296-8b77-7f632990e45c")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Unknown item.
-            /// </summary>
-            [RepositoryItem("7db455ef-60bc-4a6b-923b-cc2cd3a15e72")]
-            public virtual Ranorex.Text Unknown
-            {
-                get
-                {
-                    return _unknownInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Unknown item info.
-            /// </summary>
-            [RepositoryItemInfo("7db455ef-60bc-4a6b-923b-cc2cd3a15e72")]
-            public virtual RepoItemInfo UnknownInfo
-            {
-                get
-                {
-                    return _unknownInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeElement1 item.
-            /// </summary>
-            [RepositoryItem("1e66eed8-75c7-4f82-ad5f-f0f5058d88d7")]
-            public virtual Ranorex.Unknown SomeElement1
-            {
-                get
-                {
-                    return _someelement1Info.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeElement1 item info.
-            /// </summary>
-            [RepositoryItemInfo("1e66eed8-75c7-4f82-ad5f-f0f5058d88d7")]
-            public virtual RepoItemInfo SomeElement1Info
-            {
-                get
-                {
-                    return _someelement1Info;
-                }
-            }
-
-            /// <summary>
-            /// The Control item.
-            /// </summary>
-            [RepositoryItem("cf0e2917-7a19-41c6-b295-59b3a356e47a")]
-            public virtual Ranorex.Text Control
-            {
-                get
-                {
-                    return _controlInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Control item info.
-            /// </summary>
-            [RepositoryItemInfo("cf0e2917-7a19-41c6-b295-59b3a356e47a")]
-            public virtual RepoItemInfo ControlInfo
-            {
-                get
-                {
-                    return _controlInfo;
+                    return _text15Info;
                 }
             }
         }
@@ -3820,10 +3375,9 @@ namespace Test00
         [RepositoryFolder("97264d2a-fd73-48a0-b22c-914459280976")]
         public partial class SomeListFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _largeimageInfo;
             RepoItemInfo _largeimage1Info;
             RepoItemInfo _clearInfo;
-            RepoItemInfo _andInfo;
+            RepoItemInfo _somecontainerInfo;
 
             /// <summary>
             /// Creates a new SomeList  folder.
@@ -3831,10 +3385,9 @@ namespace Test00
             public SomeListFolder(RepoGenBaseFolder parentFolder) :
                     base("SomeList", "element[@automationid='MainLayoutEditor']/container/container[3]/list", parentFolder, 15000, null, false, "97264d2a-fd73-48a0-b22c-914459280976", "")
             {
-                _largeimageInfo = new RepoItemInfo(this, "LargeImage", "list/list[5]/element[@automationid='ElementFillToggleButton']/container/container[2]/picture[@automationid='LargeImage']", 15000, null, "4f37cac7-d1d3-4db5-87ea-319b9353ee9d");
                 _largeimage1Info = new RepoItemInfo(this, "LargeImage1", "list/list[5]//picture[@automationid='LargeImage']", 15000, null, "060a977a-6162-4e28-906b-edc962b9acd0");
                 _clearInfo = new RepoItemInfo(this, "Clear", "list/list[3]//list[@automationid='PART_Label']/?/?/text[@caption='Clear ']", 15000, null, "05274ed7-e0ec-4345-a141-1b9fdd8b7ffd");
-                _andInfo = new RepoItemInfo(this, "And", "?/?/list[@automationid='ChildBlock']//list[@automationid='PART_Label']/?/?/text[@caption='and ']", 15000, null, "3772c581-f4ab-48a9-8240-3b2690aa96e7");
+                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "list/list[5]/element[@automationid='ElementFillToggleButton']/container/container[2]", 15000, null, "f687e1a2-d6f8-4ecd-9edc-e8043872f3b6");
             }
 
             /// <summary>
@@ -3858,30 +3411,6 @@ namespace Test00
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The LargeImage item.
-            /// </summary>
-            [RepositoryItem("4f37cac7-d1d3-4db5-87ea-319b9353ee9d")]
-            public virtual Ranorex.Picture LargeImage
-            {
-                get
-                {
-                    return _largeimageInfo.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The LargeImage item info.
-            /// </summary>
-            [RepositoryItemInfo("4f37cac7-d1d3-4db5-87ea-319b9353ee9d")]
-            public virtual RepoItemInfo LargeImageInfo
-            {
-                get
-                {
-                    return _largeimageInfo;
                 }
             }
 
@@ -3934,26 +3463,26 @@ namespace Test00
             }
 
             /// <summary>
-            /// The And item.
+            /// The SomeContainer item.
             /// </summary>
-            [RepositoryItem("3772c581-f4ab-48a9-8240-3b2690aa96e7")]
-            public virtual Ranorex.Text And
+            [RepositoryItem("f687e1a2-d6f8-4ecd-9edc-e8043872f3b6")]
+            public virtual Ranorex.Container SomeContainer
             {
                 get
                 {
-                    return _andInfo.CreateAdapter<Ranorex.Text>(true);
+                    return _somecontainerInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 
             /// <summary>
-            /// The And item info.
+            /// The SomeContainer item info.
             /// </summary>
-            [RepositoryItemInfo("3772c581-f4ab-48a9-8240-3b2690aa96e7")]
-            public virtual RepoItemInfo AndInfo
+            [RepositoryItemInfo("f687e1a2-d6f8-4ecd-9edc-e8043872f3b6")]
+            public virtual RepoItemInfo SomeContainerInfo
             {
                 get
                 {
-                    return _andInfo;
+                    return _somecontainerInfo;
                 }
             }
         }
@@ -3967,7 +3496,6 @@ namespace Test00
             RepoItemInfo _partimageInfo;
             RepoItemInfo _duplicateInfo;
             RepoItemInfo _removeInfo;
-            RepoItemInfo _partimage1Info;
 
             /// <summary>
             /// Creates a new ElementPlateRibbonBar  folder.
@@ -3978,7 +3506,6 @@ namespace Test00
                 _partimageInfo = new RepoItemInfo(this, "PARTImage", "element[@automationid='ElementAddPlateButton']//picture[@automationid='PART_Image']", 15000, null, "ff8d9407-fd74-4b90-9c03-d295ad27fcdd");
                 _duplicateInfo = new RepoItemInfo(this, "Duplicate", "element[@automationid='ElementDuplicatePlateButton']//list[@automationid='PART_Label']/?/?/text[@caption='Duplicate ']", 15000, null, "50d3ec24-e1ec-424b-871e-4e1de4967769");
                 _removeInfo = new RepoItemInfo(this, "Remove", "element[@automationid='ElementRemovePlateButton']//list[@automationid='PART_Label']/?/?/text[@caption='Remove ']", 15000, null, "83201f5a-0fb6-48ad-b957-a0a545bd8fbf");
-                _partimage1Info = new RepoItemInfo(this, "PARTImage1", "element[@automationid='ElementRemovePlateButton']//picture[@automationid='PART_Image']", 15000, null, "55e1a295-e864-4152-882d-124cb84171f7");
             }
 
             /// <summary>
@@ -4074,30 +3601,6 @@ namespace Test00
                 get
                 {
                     return _removeInfo;
-                }
-            }
-
-            /// <summary>
-            /// The PARTImage1 item.
-            /// </summary>
-            [RepositoryItem("55e1a295-e864-4152-882d-124cb84171f7")]
-            public virtual Ranorex.Picture PARTImage1
-            {
-                get
-                {
-                    return _partimage1Info.CreateAdapter<Ranorex.Picture>(true);
-                }
-            }
-
-            /// <summary>
-            /// The PARTImage1 item info.
-            /// </summary>
-            [RepositoryItemInfo("55e1a295-e864-4152-882d-124cb84171f7")]
-            public virtual RepoItemInfo PARTImage1Info
-            {
-                get
-                {
-                    return _partimage1Info;
                 }
             }
         }
@@ -4435,8 +3938,8 @@ namespace Test00
             RepoItemInfo _arrowInfo;
             RepoItemInfo _somepictureInfo;
             RepoItemInfo _test00Info;
-            ColorToggleButtonInfoClass _colortogglebuttonInfo;
             RepoItemInfo _somecontainer1Info;
+            RepoItemInfo _selectedcolortextInfo;
 
             /// <summary>
             /// Creates a new SampleTypesSimplifiedView  folder.
@@ -4447,43 +3950,8 @@ namespace Test00
                 _arrowInfo = new RepoItemInfo(this, "Arrow", "container/container[10]/container/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']/element[@automationid='Arrow']", 15000, null, "1e7b9681-907a-45b2-82b2-48f89031f2d3");
                 _somepictureInfo = new RepoItemInfo(this, "SomePicture", "container/container[10]/button/picture", 15000, null, "476fd348-a16f-4d96-8147-61b66c2c928d");
                 _test00Info = new RepoItemInfo(this, "Test00", "container/container[10]/text[@caption='Test00']", 15000, null, "04655e1f-e089-4e6b-80f4-dfd2f8989eda");
-                _colortogglebuttonInfo = new ColorToggleButtonInfoClass(this);
                 _somecontainer1Info = new RepoItemInfo(this, "SomeContainer1", "container/container[10]", 15000, null, "e1413959-e6cb-44b8-b0d2-e1824b8c2132");
-            }
-
-            /// <summary>
-            /// The ColorToggleButtonInfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("a181d5c3-aca2-4ffb-9f39-19d5829330ed")]
-            public class ColorToggleButtonInfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// ColorToggleButtonInfoClass class constructor.
-                /// </summary>
-                public ColorToggleButtonInfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "ColorToggleButton", "container/container[10]//checkbox[@automationid='colorToggleButton']", 15000, null, "a181d5c3-aca2-4ffb-9f39-19d5829330ed")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("27d9fd81-ffd5-4456-a555-3c13ff455905")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("27d9fd81-ffd5-4456-a555-3c13ff455905");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("27d9fd81-ffd5-4456-a555-3c13ff455905")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("27d9fd81-ffd5-4456-a555-3c13ff455905", cropRect);
-                }
+                _selectedcolortextInfo = new RepoItemInfo(this, "SelectedColorText", "container/container[10]//checkbox[@automationid='colorToggleButton']//text[@automationid='SelectedColorText']", 15000, null, "c24b0081-c921-4d22-826a-bd34907e5f57");
             }
 
             /// <summary>
@@ -4583,30 +4051,6 @@ namespace Test00
             }
 
             /// <summary>
-            /// The ColorToggleButton item.
-            /// </summary>
-            [RepositoryItem("a181d5c3-aca2-4ffb-9f39-19d5829330ed")]
-            public virtual Ranorex.CheckBox ColorToggleButton
-            {
-                get
-                {
-                    return _colortogglebuttonInfo.CreateAdapter<Ranorex.CheckBox>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ColorToggleButton item info.
-            /// </summary>
-            [RepositoryItemInfo("a181d5c3-aca2-4ffb-9f39-19d5829330ed")]
-            public virtual ColorToggleButtonInfoClass ColorToggleButtonInfo
-            {
-                get
-                {
-                    return _colortogglebuttonInfo;
-                }
-            }
-
-            /// <summary>
             /// The SomeContainer1 item.
             /// </summary>
             [RepositoryItem("e1413959-e6cb-44b8-b0d2-e1824b8c2132")]
@@ -4627,6 +4071,30 @@ namespace Test00
                 get
                 {
                     return _somecontainer1Info;
+                }
+            }
+
+            /// <summary>
+            /// The SelectedColorText item.
+            /// </summary>
+            [RepositoryItem("c24b0081-c921-4d22-826a-bd34907e5f57")]
+            public virtual Ranorex.Text SelectedColorText
+            {
+                get
+                {
+                    return _selectedcolortextInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SelectedColorText item info.
+            /// </summary>
+            [RepositoryItemInfo("c24b0081-c921-4d22-826a-bd34907e5f57")]
+            public virtual RepoItemInfo SelectedColorTextInfo
+            {
+                get
+                {
+                    return _selectedcolortextInfo;
                 }
             }
         }

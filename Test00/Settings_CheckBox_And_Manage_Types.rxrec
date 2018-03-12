@@ -11,7 +11,7 @@ mode="Desktop">
 		1
 	</repeatcount>
 	<turbomode>
-		True
+		False
 	</turbomode>
 	<genreport>
 		True
@@ -5821,21 +5821,16 @@ CSzxRueis4BNPkdY42dzhVGSaAHUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 		enabled="True"
 		optional="False"
 		duration="100ms"
-		screenshotname="Screenshot1"
-		screenshotguid="27d9fd81-ffd5-4456-a555-3c13ff455905"
-		codegenpropertyname="ColorToggleButton_Screenshot1"
-		searchpropertyid="3c04df44-8619-4fe5-93a2-8595a4448cf0"
-		imagerect="0,0,158,26"
-		imageoptions="1;None;0,0,158,26;True;10000000;0ms"
-		action="CompareImage">
+		searchpropertyid="f2203427-e34b-4ebe-8de8-a6ddddd6dbc3"
+		action="AttributeEqual">
 			<comment/>
 			<bindings/>
 			<info
 			sourcename="ElementTree"
-			id="a181d5c3-aca2-4ffb-9f39-19d5829330ed">
+			id="c24b0081-c921-4d22-826a-bd34907e5f57">
 				<element
-				role="checkbox"
-				prefcap="checkbox"
+				role="text"
+				prefcap="text"
 				capabilities="wpfelement"
 				flavor="wpf"
 				visible="True"
@@ -5844,383 +5839,444 @@ CSzxRueis4BNPkdY42dzhVGSaAHUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
 				hasfocus="False"
 				dontcache="False"
 				index="0"
-				rect="751,481,158,26"
+				rect="1053,645,57,11"
 				snapElem="">
 					<attribute
-					name="checked"
-					type="System.Boolean">
-						False
+					name="caption"
+					type="System.String">
+						DarkGreen
 					</attribute>
 					<attribute
-					name="checkstate"
-					type="System.Windows.Forms.CheckState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Unchecked
+					name="text"
+					type="System.String">
+						DarkGreen
 					</attribute>
 					<attribute
 					name="automationid"
 					type="System.String">
-						colorToggleButton
+						SelectedColorText
 					</attribute>
 					<attribute
 					name="basetype"
 					type="System.String">
-						System.Windows.Controls.Primitives.ToggleButton
+						System.Windows.Controls.TextBlock
 					</attribute>
 					<attribute
 					name="fulltype"
 					type="System.String">
-						System.Windows.Controls.Primitives.ToggleButton
+						System.Windows.Controls.TextBlock
 					</attribute>
 					<attribute
 					name="name"
 					type="System.String">
-						colorToggleButton
+						SelectedColorText
 					</attribute>
 					<attribute
 					name="type"
 					type="System.String">
-						ToggleButton
+						TextBlock
 					</attribute>
 					<dynamicattribute
 					name="ActualHeight"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.ActualHeight property of type Double.">
-						26
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double.">
+						15.96
 					</dynamicattribute>
 					<dynamicattribute
 					name="ActualWidth"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.ActualWidth property of type Double.">
-						158
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double.">
+						56.406666666666673
 					</dynamicattribute>
 					<dynamicattribute
 					name="AllowDrop"
 					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.AllowDrop property of type Boolean."
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
 					readonly="False">
 						False
 					</dynamicattribute>
 					<dynamicattribute
 					name="Background"
 					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Background property of type Brush."
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
 					readonly="False"/>
+					<dynamicattribute
+					name="BaselineOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					readonly="False">
+						12.950000000000001
+					</dynamicattribute>
 					<dynamicattribute
 					name="BindingGroup"
 					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.BindingGroup property of type BindingGroup."
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
 					readonly="False"/>
 					<dynamicattribute
 					name="BitmapEffect"
 					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.BitmapEffect property of type BitmapEffect."
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
 					readonly="False"/>
 					<dynamicattribute
 					name="BitmapEffectInput"
 					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.BitmapEffectInput property of type BitmapEffectInput."
-					readonly="False"/>
-					<dynamicattribute
-					name="BorderBrush"
-					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.BorderBrush property of type Brush."
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
 					readonly="False"/>
 					<dynamicattribute
 					name="CacheMode"
 					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.CacheMode property of type CacheMode."
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
 					readonly="False"/>
-					<dynamicattribute
-					name="ClickMode"
-					type="System.Windows.Controls.ClickMode, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.ClickMode property of type ClickMode."
-					readonly="False">
-						Press
-					</dynamicattribute>
 					<dynamicattribute
 					name="Clip"
 					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Clip property of type Geometry."
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
 					readonly="False"/>
 					<dynamicattribute
 					name="ClipToBounds"
 					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.ClipToBounds property of type Boolean."
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
 					readonly="False">
 						False
 					</dynamicattribute>
 					<dynamicattribute
-					name="CommandParameter"
-					type="System.Object"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.CommandParameter property of type Object."
-					readonly="False"/>
-					<dynamicattribute
-					name="Content"
-					type="System.Object"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Content property of type Object."
-					readonly="False">
-						WpfRemote&lt;StackPanel&gt;{f529b726-c813-4ff1-b805-abc308575eee}
-					</dynamicattribute>
-					<dynamicattribute
-					name="ContentStringFormat"
-					type="System.String"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.ContentStringFormat property of type String."
-					readonly="False"/>
-					<dynamicattribute
 					name="ContextMenu"
 					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.ContextMenu property of type ContextMenu."
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
 					readonly="False"/>
 					<dynamicattribute
 					name="DataContext"
 					type="System.Object"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.DataContext property of type Object."
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
 					readonly="False">
-						ByRef&lt;CheckableSampleTypeViewModel&gt;{36124251, MyAssays.Desktop.Wizard.Steps.CheckableSampleTypeViewModel}
+						ByRef&lt;CheckableSampleTypeViewModel&gt;{24104960, MyAssays.Desktop.Wizard.Steps.CheckableSampleTypeViewModel}
 					</dynamicattribute>
 					<dynamicattribute
 					name="Effect"
 					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Effect property of type Effect."
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
 					readonly="False"/>
 					<dynamicattribute
 					name="FlowDirection"
 					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.FlowDirection property of type FlowDirection."
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
 					readonly="False">
 						LeftToRight
 					</dynamicattribute>
 					<dynamicattribute
 					name="Focusable"
 					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Focusable property of type Boolean."
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
 					readonly="False">
 						False
 					</dynamicattribute>
 					<dynamicattribute
 					name="FontSize"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.FontSize property of type Double."
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
 					readonly="False">
 						12
 					</dynamicattribute>
 					<dynamicattribute
 					name="ForceCursor"
 					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.ForceCursor property of type Boolean."
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
 					readonly="False">
 						False
 					</dynamicattribute>
 					<dynamicattribute
 					name="Foreground"
 					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Foreground property of type Brush."
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
 					readonly="False"/>
-					<dynamicattribute
-					name="HasContent"
-					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.HasContent property of type Boolean.">
-						True
-					</dynamicattribute>
 					<dynamicattribute
 					name="Height"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Height property of type Double."
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
 					readonly="False">
-						26
+						NaN
 					</dynamicattribute>
 					<dynamicattribute
 					name="HorizontalAlignment"
 					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.HorizontalAlignment property of type HorizontalAlignment."
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
 					readonly="False">
-						Stretch
-					</dynamicattribute>
-					<dynamicattribute
-					name="HorizontalContentAlignment"
-					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.HorizontalContentAlignment property of type HorizontalAlignment."
-					readonly="False">
-						Stretch
+						Left
 					</dynamicattribute>
 					<dynamicattribute
 					name="IsHitTestVisible"
 					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.IsHitTestVisible property of type Boolean."
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
 					readonly="False">
 						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="IsHyphenationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					readonly="False">
+						False
 					</dynamicattribute>
 					<dynamicattribute
 					name="IsManipulationEnabled"
 					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.IsManipulationEnabled property of type Boolean."
-					readonly="False">
-						False
-					</dynamicattribute>
-					<dynamicattribute
-					name="IsPressed"
-					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.IsPressed property of type Boolean.">
-						False
-					</dynamicattribute>
-					<dynamicattribute
-					name="IsTabStop"
-					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.IsTabStop property of type Boolean."
-					readonly="False">
-						True
-					</dynamicattribute>
-					<dynamicattribute
-					name="IsThreeState"
-					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.IsThreeState property of type Boolean."
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
 					readonly="False">
 						False
 					</dynamicattribute>
 					<dynamicattribute
 					name="LayoutTransform"
 					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.LayoutTransform property of type Transform."
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
 					readonly="False"/>
+					<dynamicattribute
+					name="LineHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					readonly="False">
+						NaN
+					</dynamicattribute>
+					<dynamicattribute
+					name="LineStackingStrategy"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					readonly="False">
+						MaxHeight
+					</dynamicattribute>
 					<dynamicattribute
 					name="MaxHeight"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.MaxHeight property of type Double."
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
 					readonly="False">
 						Infinity
 					</dynamicattribute>
 					<dynamicattribute
 					name="MaxWidth"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.MaxWidth property of type Double."
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
 					readonly="False">
 						Infinity
 					</dynamicattribute>
 					<dynamicattribute
 					name="MinHeight"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.MinHeight property of type Double."
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
 					readonly="False">
 						0
 					</dynamicattribute>
 					<dynamicattribute
 					name="MinWidth"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.MinWidth property of type Double."
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
 					readonly="False">
 						0
 					</dynamicattribute>
 					<dynamicattribute
 					name="Opacity"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Opacity property of type Double."
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
 					readonly="False">
 						1
 					</dynamicattribute>
 					<dynamicattribute
 					name="OpacityMask"
 					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.OpacityMask property of type Brush."
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
 					readonly="False"/>
 					<dynamicattribute
 					name="OverridesDefaultStyle"
 					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.OverridesDefaultStyle property of type Boolean."
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
 					readonly="False">
 						False
 					</dynamicattribute>
 					<dynamicattribute
 					name="RenderTransform"
 					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.RenderTransform property of type Transform."
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
 					readonly="False"/>
 					<dynamicattribute
 					name="RenderTransformOrigin"
 					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.RenderTransformOrigin property of type Point."
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
 					readonly="False">
 						0,0
 					</dynamicattribute>
 					<dynamicattribute
 					name="SnapsToDevicePixels"
 					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.SnapsToDevicePixels property of type Boolean."
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
 					readonly="False">
 						False
 					</dynamicattribute>
 					<dynamicattribute
-					name="TabIndex"
-					type="System.Int32"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.TabIndex property of type Int32."
-					readonly="False">
-						2147483647
-					</dynamicattribute>
-					<dynamicattribute
 					name="Tag"
 					type="System.Object"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Tag property of type Object."
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
 					readonly="False"/>
+					<dynamicattribute
+					name="TextAlignment"
+					type="System.Windows.TextAlignment, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					readonly="False">
+						Left
+					</dynamicattribute>
+					<dynamicattribute
+					name="TextDecorations"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					readonly="False">
+						WpfRemote&lt;TextDecorationCollection&gt;{0f3665f4-629c-4fc3-be5b-1b0a882e5370}
+					</dynamicattribute>
+					<dynamicattribute
+					name="TextEffects"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					readonly="False">
+						WpfRemote&lt;TextEffectCollection&gt;{a425a2c3-5092-4ed8-a3d7-335cd9efbd54}
+					</dynamicattribute>
+					<dynamicattribute
+					name="TextTrimming"
+					type="System.Windows.TextTrimming, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					readonly="False">
+						None
+					</dynamicattribute>
+					<dynamicattribute
+					name="TextWrapping"
+					type="System.Windows.TextWrapping, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					readonly="False">
+						NoWrap
+					</dynamicattribute>
 					<dynamicattribute
 					name="ToolTip"
 					type="System.Object"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.ToolTip property of type Object."
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
 					readonly="False"/>
 					<dynamicattribute
 					name="Uid"
 					type="System.String"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Uid property of type String."
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
 					weight="150"
 					readonly="False"/>
 					<dynamicattribute
 					name="UseLayoutRounding"
 					type="System.Boolean"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.UseLayoutRounding property of type Boolean."
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
 					readonly="False">
 						False
 					</dynamicattribute>
 					<dynamicattribute
 					name="VerticalAlignment"
 					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.VerticalAlignment property of type VerticalAlignment."
-					readonly="False">
-						Stretch
-					</dynamicattribute>
-					<dynamicattribute
-					name="VerticalContentAlignment"
-					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.VerticalContentAlignment property of type VerticalAlignment."
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
 					readonly="False">
 						Center
 					</dynamicattribute>
 					<dynamicattribute
 					name="Visibility"
 					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Visibility property of type Visibility."
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
 					readonly="False">
 						Visible
 					</dynamicattribute>
 					<dynamicattribute
 					name="Width"
 					type="System.Double"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.Width property of type Double."
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
 					readonly="False">
 						NaN
 					</dynamicattribute>
 					<dynamicaction
-					displayName="ToString"
-					description="The WPF System.Windows.Controls.Primitives.ToggleButton.ToString method.">
+					displayName="GetPositionFromPoint"
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+						<argument
+						displayName="point"
+						description="A method argument of type Point."
+						type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<argument
+						displayName="snapToText"
+						description="A method argument of type Boolean."
+						type="System.Boolean"/>
 						<returns
 						displayName="returns"
 						description="Return value."
-						type="System.String"/>
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeBaselineOffset"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeInlines"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+						<argument
+						displayName="manager"
+						description="A method argument of type XamlDesignerSerializationManager."
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeText"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']
+					/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/container[1]/list[@automationid='SampleTypesSimplifiedView']/container/container[10]//checkbox[@automationid='colorToggleButton']//text[@automationid='SelectedColorText']
 				</path>
 			</info>
-			<matchname/>
-			<matchvalue/>
+			<helperscreenshot
+			guid="c817df62-2628-4113-822e-fce8c8de6e69">
+				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
+JRQBHmb+4n/fZ/woqSigD//Z
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				DarkGreen
+			</matchvalue>
 		</validationitem>
 		<mouseitem
 		enabled="True"

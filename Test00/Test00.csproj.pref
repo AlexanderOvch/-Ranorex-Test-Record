@@ -1,12 +1,6 @@
 ﻿<Properties>
   <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="EditeSamples.cs" />
-    <Element value="Test00.rxtst" />
-    <Element value="EditeSamples.rxrec" />
-    <Element value="Test00Repository.rxrep" />
-    <Element value="CreateNewProtocol.rxrec" />
-  </Array>
+  <Array name="files" />
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
